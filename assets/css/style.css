@@ -25,7 +25,11 @@ header {
 
 }
 
-#heavenly {
+header a {
+    text-decoration: none;
+}
+
+ #heavenly {
     color: #4d3b71;
     text-align: center;
     padding-top: 70px;
@@ -70,16 +74,23 @@ div #quote {
     text-align: center;
 }
 
-div h2 {
+a #no-barrier {
     color:#4d3b71;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    text-decoration: none;
 }
 
 #no-barrier {
-    background-image: url('../images/pexels-marlon-schmeiski-3115708.jpg');
+    background-image: url('../images/pexels-kristina-paukshtite-2417855.jpg');
     background-color: #b27da4;
     background-size: cover;
-    height: 600px;
-    width: 50%;
+    height: 300px;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    border-radius: 20%;
+    margin-left: 20px;
+    
 }
