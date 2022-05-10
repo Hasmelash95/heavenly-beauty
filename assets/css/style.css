@@ -8,26 +8,40 @@
     border: none;
 }
 
+/* Header styling */
+
 h1, h2 {
    font-family: 'IM Fell Double Pica', serif;
    font-weight: 400;
 }
 
-h1 {
-    color:rgb(46, 46, 88);
-    text-align: center;
+header {
+    background-image: url('../images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg');
+    background-color: rgb(214, 230, 244);
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
 }
+
+#heavenly {
+    color: #4d3b71;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 25px;
+    }
+
+    
+    
 
 nav, p {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
 }
 
-header {
-    background-image: url('../images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg');
-    height: 200px;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+#nav li {
+    display: inline-block;
+    list-style-type: none;
 }
 
