@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap');
 /* Fonts chosen for their smooth, heavenly feel */
 
+/* To remove some default alignments */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 h1, h2 {
    font-family: 'IM Fell Double Pica', serif;
    font-weight: 400;
 }
 
-p, nav {
+h1 {
+    color:rgb(46, 46, 88);
+    text-align: center;
+}
+
+nav, p {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
 }
+
+header {
+    background-image: url('../images/pero-kalimero-9BJRGlqoIUk-unsplash.jpg');
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
