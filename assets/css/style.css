@@ -79,12 +79,27 @@ a #no-barrier {
     background-image: url('../images/pexels-kristina-paukshtite-2417855.jpg');
     background-color: #b27da4;
     background-size: cover;
-    height: 480px;
-    width: 75%;
+    height: 500px;
+    width: 80%;
     padding: 10px;
     border-radius: 20%;
     margin-left: auto;
     margin-right: auto;  
+
+    /* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
+    animation-name: approach-screen;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+}
+
+/* To configure the zoom value */
+@keyframes approach-screen {
+    from{
+        transform: scale(0.7)
+    }
+    to{
+        transform: scale(1)
+    }
 }
 
 #subscribe-now {
