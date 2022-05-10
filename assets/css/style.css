@@ -35,6 +35,7 @@ header {
 nav, p {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
+    color: #4d3b71;
 }
 
 /* Div container to center the navigation bar */
@@ -46,7 +47,7 @@ div #nav {
 #nav li {
     display: inline-block;
     list-style-type: none;
-    padding: 5px 5px 10px 5px;
+    padding: 5px 10px 5px 10px;
     color: #4d3b71;
     font-size: large;
 }
@@ -58,6 +59,27 @@ div #nav {
 #nav a:hover {
     color:rgb(214, 230, 244);
     background-color: #4d3b71;   
-    padding: 5px 5px 10px 5px;
-    
+    padding: 5px 10px 5px 10px;   
+}
+
+div #quote {
+    padding: 20px;
+}
+
+#quote {
+    text-align: center;
+}
+
+div h2 {
+    color:#4d3b71;
+    text-align: center;
+    padding: 20px;
+}
+
+#no-barrier {
+    background-image: url('../images/pexels-marlon-schmeiski-3115708.jpg');
+    background-color: #b27da4;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
 }
