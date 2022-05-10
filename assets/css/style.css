@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap');
+/* Fonts chosen for their smooth, heavenly feel */
+
+h1, h2 {
+   font-family: 'IM Fell Double Pica', serif;
+   font-weight: 400;
+}
+
+p, nav {
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 300;
+}
