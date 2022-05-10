@@ -30,18 +30,21 @@ header {
     text-align: center;
     padding-top: 70px;
     font-size: 25px;
-    }
-
-    
-    
+}
 
 nav, p {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
 }
 
+div #nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
 #nav li {
     display: inline-block;
     list-style-type: none;
+    padding: 5px 20px 10px 20px;
 }
 
