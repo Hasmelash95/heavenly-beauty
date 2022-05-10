@@ -10,9 +10,10 @@
 
 /* Header styling */
 
-h1, h2 {
+h1, h2, p {
    font-family: 'IM Fell Double Pica', serif;
    font-weight: 400;
+   color:#40315d;
 }
 
 header {
@@ -30,7 +31,7 @@ header a {
 }
 
  #heavenly {
-    color: #4d3b71;
+    color: #40315d;
     text-align: center;
     padding-top: 70px;
     font-size: 25px;
@@ -39,7 +40,7 @@ header a {
 nav, p {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
-    color: #4d3b71;
+    color: #40315d;
 }
 
 /* Div container to center the navigation bar */
@@ -52,7 +53,7 @@ div #nav {
     display: inline-block;
     list-style-type: none;
     padding: 5px 10px 5px 10px;
-    color: #4d3b71;
+    color: #40315d;
     font-size: large;
 }
 
@@ -62,7 +63,7 @@ div #nav {
 
 #nav a:hover {
     color:rgb(214, 230, 244);
-    background-color: #4d3b71;   
+    background-color: #40315d;   
     padding: 5px 10px 5px 10px;   
 }
 
@@ -75,7 +76,7 @@ div #quote {
 }
 
 a #no-barrier {
-    color:#4d3b71;
+    color:#40315d;
     text-align: center;
     padding: 50px;
     text-decoration: none;
@@ -85,12 +86,15 @@ a #no-barrier {
     background-image: url('../images/pexels-kristina-paukshtite-2417855.jpg');
     background-color: #b27da4;
     background-size: cover;
-    height: 300px;
+    height: 450px;
     width: 40%;
     padding: 10px;
     text-align: center;
     float: left;
     border-radius: 20%;
-    margin-left: 20px;
-    
+    margin-left: 20px;    
+}
+
+#why-subscribe ul {
+    list-style-type: none;
 }
