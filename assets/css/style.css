@@ -37,6 +37,7 @@ nav, p {
     font-weight: 300;
 }
 
+/* Div container to center the navigation bar */
 div #nav {
     text-align: center;
     margin: 0 auto;
@@ -45,6 +46,16 @@ div #nav {
 #nav li {
     display: inline-block;
     list-style-type: none;
-    padding: 5px 20px 10px 20px;
+    padding: 5px 30px 10px 30px;
+    color: #4d3b71;
+    background-color:rgb(214, 230, 244);
 }
 
+#nav a { 
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color:rgb(214, 230, 244);
+    background-color: #4d3b71
+}
