@@ -88,7 +88,7 @@ a #no-barrier {
 
     /* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
     animation-name: approach-screen;
-    animation-duration: 10s;
+    animation-duration: 7.5s;
     animation-fill-mode: both;
 }
 
