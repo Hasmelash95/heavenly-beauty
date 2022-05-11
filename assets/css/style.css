@@ -34,8 +34,7 @@ body {
     font-weight: 400;
 }
 
-/* Div container to center the navigation bar */
-div #nav {
+nav {
     text-align: center;
     margin: 0 auto;
 }
