@@ -58,6 +58,12 @@ a {
     padding: 5px 10px 5px 10px;   
 }
 
+.active {
+    color:rgb(214, 230, 244);
+    background-color: #40315d;   
+    padding: 5px 10px 5px 10px; 
+}
+
 /* Inspirational quote to boost user's mood */
 div #quote {
     padding: 20px;
