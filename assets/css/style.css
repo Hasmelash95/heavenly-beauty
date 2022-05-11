@@ -135,6 +135,14 @@ a #no-barrier {
     text-align: center;
 }
 
+#skin-care ul {
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 4px ridge #40315d;
+    list-style-type: none;
+    text-align: center;
+}
+
 footer {
     color: rgb(64, 49, 93);
     height: 150px;
