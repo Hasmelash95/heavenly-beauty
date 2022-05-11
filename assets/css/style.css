@@ -52,12 +52,14 @@ a {
     text-decoration: none;
 }
 
+/* For when user hovers over the navigation button */
 #nav a:hover {
     color:rgb(214, 230, 244);
     background-color: #40315d;   
     padding: 5px 10px 5px 10px;   
 }
 
+/* For when user clicks on the button, thereby 'activating' the page */
 .active {
     color:rgb(214, 230, 244);
     background-color: #40315d;   
