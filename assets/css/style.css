@@ -140,3 +140,8 @@ footer {
     display: inline-block;
     padding: 30px;    
 }
+
+#copyright {
+    float: right;
+    padding: 30px;
+}
