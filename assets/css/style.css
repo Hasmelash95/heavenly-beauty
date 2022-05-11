@@ -127,14 +127,18 @@ a #no-barrier {
 }
 
 footer {
-    color: rgb(214, 230, 244);
+    color: rgb(64, 49, 93);
     height: 150px;
     width: 100%;
-    background-color: #40315d;
+    background-color: rgb(64, 49, 93, 0.4);
     margin-top: 30px;
 }
 
-#social-media {
+footer div {
     text-align: center;
     font-size: large;
+}
+
+#social-media {
+    padding: 30px;
 }
