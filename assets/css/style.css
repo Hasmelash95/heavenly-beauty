@@ -125,3 +125,11 @@ a #no-barrier {
     border-radius: 50%;
     text-align: center;
 }
+
+footer {
+    color: rgb(214, 230, 244);
+    height: 150px;
+    width: 100%;
+    background-color: #40315d;
+    margin-top: 30px;
+}
