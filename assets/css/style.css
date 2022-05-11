@@ -133,3 +133,8 @@ footer {
     background-color: #40315d;
     margin-top: 30px;
 }
+
+#social-media {
+    text-align: center;
+    font-size: large;
+}
