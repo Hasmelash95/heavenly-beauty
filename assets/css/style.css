@@ -135,11 +135,13 @@ a #no-barrier {
     text-align: center;
 }
 
+/* To format the article headings in beauty hacks page in one go */
 article h2 {
     margin-left: 30px;
     margin-top: 30px;
 }
 
+/* To format the first two articles in beauty hacks page in one go */
 .tips ul {
     margin-left: 30px;
     margin-right: 30px;
@@ -150,6 +152,7 @@ article h2 {
     background-color: rgb(233, 238, 243);
 }
 
+/* The woman-looking-in mirror image in beauty hacks page */
 img {
     width: 650px;
     height: 400px;
@@ -160,9 +163,24 @@ img {
     border: 4px ridge #40315d;
 }
 
+/* Relative positioning made it easier to orient */
 aside {
-    float: right;
     width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 250px;
+    left: 900px;
+}
+
+aside h2 {
+    text-align: center;;
+}
+
+aside p {
+    border: 4px ridge #40315d;
+    border-radius: 90%;
+    padding: 40px 80px;
+    background-color:rgb(233, 238, 243);
 }
 
 footer {
@@ -173,6 +191,7 @@ footer {
     margin-top: 30px;
 }
 
+/* For the social media icons */
 #social-media i {
     font-size: xx-large;
     float: left;
