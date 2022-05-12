@@ -155,7 +155,7 @@ article h2 {
 }
 
 /* The woman-looking-in mirror image in beauty hacks page */
-img {
+#mirror-woman {
     width: 650px;
     height: 400px;
     float: right;
@@ -204,6 +204,20 @@ aside a:hover {
     bottom: 100px;
     font-size: large;
     margin-left: 120px;
+}
+
+/* To maintain consistency with the other external links */
+#brands a:hover {
+    border-bottom: 1px solid #40315d;
+}
+
+#table-makeup {
+   float: right;
+   width: 800px;
+   height: 600px;
+   margin-right: 30px;
+   border: 4px ridge #40315d;
+   border-radius: 20%;
 }
 
 footer {
