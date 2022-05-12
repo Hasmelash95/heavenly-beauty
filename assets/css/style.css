@@ -150,6 +150,12 @@ article h2 {
     background-color: rgb(233, 238, 243);
 }
 
+img {
+    width: 750px;
+    height: 500px;
+    float: right;
+}
+
 footer {
     color: rgb(64, 49, 93);
     height: 150px;
@@ -161,7 +167,6 @@ footer {
 #social-media i {
     font-size: xx-large;
     float: left;
-    display: inline-block;
     padding: 40px;    
 }
 
