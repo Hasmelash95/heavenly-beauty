@@ -155,9 +155,14 @@ img {
     height: 400px;
     float: right;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 90%;
     border: 4px ridge #40315d;
+}
+
+aside {
+    float: right;
+    width: 400px;
 }
 
 footer {
