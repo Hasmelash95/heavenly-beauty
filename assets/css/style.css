@@ -1,5 +1,5 @@
+/* Fonts from google fonts chosen for their smooth, heavenly feel */
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap');
-/* Fonts chosen for their smooth, heavenly feel */
 
 /* To remove some default alignments */
 * {
@@ -34,6 +34,7 @@ body {
     font-weight: 400;
 }
 
+/* Navigation bar styling */
 nav {
     text-align: center;
     margin: 0 auto;
@@ -47,6 +48,7 @@ nav {
     font-size: large;
 }
 
+/* So links default to underlining unless I specify it */
 a { 
     text-decoration: none;
 }
@@ -168,7 +170,7 @@ aside {
     width: 400px;
     height: 200px;
     position: relative;
-    bottom: 250px;
+    bottom: 300px;
     left: 900px;
 }
 
@@ -181,6 +183,27 @@ aside p {
     border-radius: 90%;
     padding: 40px 80px;
     background-color:rgb(233, 238, 243);
+}
+
+aside a:hover {
+    border-bottom: 1px solid #40315d;
+}
+
+#brands h2 {
+    position: relative;
+    bottom: 100px;
+    font-size: larger;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+#brands ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 100px;
+    font-size: large;
+    margin-left: 120px;
 }
 
 footer {
