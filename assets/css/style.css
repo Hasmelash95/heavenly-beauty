@@ -211,6 +211,7 @@ aside a:hover {
     border-bottom: 1px solid #40315d;
 }
 
+/* Image is positioned in a way to ensure the user knows to continue to scroll down the page */
 #table-makeup {
    float: right;
    width: 800px;
