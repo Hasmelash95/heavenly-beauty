@@ -244,13 +244,15 @@ form span {
     font-family: 'Cantarell', sans-serif;
 }
 
+/* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
 #age {
     border: 2px ridge #40315d;
-    width: 50px;
+    width: 90px;
     height: 20px;
     padding: 5px 10px;
     text-align: center;
     font-size: large;
+    font-family: 'Cantarell', sans-serif;
 }
 
 #gender {
@@ -261,7 +263,7 @@ form span {
     border: 2px ridge #40315d;
     width: 400px;
     height: 20px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     font-size: larger;
     font-family: 'Cantarell', sans-serif;
 }
@@ -273,6 +275,17 @@ form span {
     font-family: 'Cantarell', sans-serif;
     border: 2px ridge #40315d;
     color: #40315d;
+}
+
+#sub-button:hover {
+    background-color: #40315d;
+    color: rgb(214, 230, 244);
+}
+
+legend {
+    font-size: larger;
+    padding-bottom: 10px;
+    text-decoration: underline;
 }
 
 footer {
