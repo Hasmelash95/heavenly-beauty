@@ -32,27 +32,27 @@
     <section>
         <form method="POST" action="">
             <div>
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" required>
+                <span><label for="firstname">First Name</label></span>
+                <input type="text" class="name" id="firstname" required>
             </div>
             <br>
             <div>
-                <label for="lastname">Last Name</label>
-                <input type="text" id="lastname" required>
+                <span><label for="lastname">Last Name</label></span>
+                <input type="text" class="name" id="lastname" required>
             </div>
             <br>
             <div>
-                <label for="age">Age</label>
+                <span><label for="age">Age</label></span>
                 <input type="number" id="age" required>
             </div>
             <br>
             <div>
-                <label for="email">Email</label>
+                <span><label for="email">Email</label></span>
                 <input type="email" id="email" required>
             </div>
             <br>
             <div>
-                What skin type do you have?
+                <span>What skin type do you have?</span>
                 <input type="radio" id="normal" value="normal" name="skin" required>
                 <label for="normal">Normal</label>
                 <input type="radio" id="sensitive" value="sensitive" name="skin">
@@ -66,7 +66,7 @@
             </div>
             <br>
             <div>
-                What is your skin's undertone?
+                <span>What is your skin's undertone?</span>
                 <input type="radio" id="warm" value="warm" name="undertone" required>
                 <label for="warm">Warm</label>
                 <input type="radio" id="cool" value="cool" name="undertone">
@@ -76,7 +76,7 @@
             </div>
             <br>
             <div>
-                How often do you apply makeup every week?
+                <span>How often do you apply makeup every week?</span>
                 <input type="radio" id="once-a-week" value="once-a-week" name="routine" required>
                 <label for="once-a-week">Once a Week</label>
                 <input type="radio" id="twice-a-week" value="twice-a-week" name="routine">
@@ -88,7 +88,7 @@
             </div>
             <br>
             <div>
-                What's your preferred style?
+                <span>What's your preferred style?</span>
                 <input type="radio" id="natural" value="natural" name="style" required>
                 <label for="natural">Natural</label>
                 <input type="radio" id="dramatic" value="dramatic" name="style">
@@ -104,7 +104,7 @@
             <!-- This may seem like a lot but the level of detail will give the user confidence that the personalised
             beauty regimine is well thought out and authentic -->
             <div>
-                Which of these products do you own? (Select all that apply)
+                <span>Which of these products do you own? (Select all that apply)</span>
                 <input type="checkbox" id="foundation" name="products" value="yes">
                 <label for="foundation">Foundation</label>
                 <input type="checkbox" id="leyeliner" name="products" value="yes">
@@ -126,7 +126,7 @@
             </div>
             <br>
             <div>
-                Which of these brands have you used? (Select all that apply)
+                <span>Which of these brands have you used? (Select all that apply)</span>
                 <input type="checkbox" id="beauty-bay" name="brands" value="yes">
                 <label for="beauty-bay">Beauty Bay</label>
                 <input type="checkbox" id="revolution" name="brands" value="yes">
@@ -140,7 +140,7 @@
             </div>
             <br>
             <div>
-                <input type="submit" value="Subscribe">
+                <input type="submit" value="Subscribe" id="sub-button">
             </div>
         </form>
     </section>

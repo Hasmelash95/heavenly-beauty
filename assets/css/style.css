@@ -228,6 +228,47 @@ form {
 
 div input {
     margin: 10px;
+    color: #40315d;
+}
+
+form span {
+    font-size: larger;
+}
+
+.name {
+    border: 2px ridge #40315d;
+    width: 300px;
+    height: 20px;
+    padding: 5px 20px; 
+    font-size: larger;
+    font-family: 'Cantarell', sans-serif;
+}
+
+#age {
+    border: 2px ridge #40315d;
+    width: 50px;
+    height: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: large;
+}
+
+#email {
+    border: 2px ridge #40315d;
+    width: 400px;
+    height: 20px;
+    padding: 5px 10px;
+    font-size: larger;
+    font-family: 'Cantarell', sans-serif;
+}
+
+#sub-button {
+    width: 200px;
+    height: 40px;
+    font-size: larger;
+    font-family: 'Cantarell', sans-serif;
+    border: 2px ridge #40315d;
+    color: #40315d;
 }
 
 footer {
