@@ -224,11 +224,16 @@ aside a:hover {
 form {
     padding-left: 30px;
     padding-top: 40px;
+    /* Image gives heavenly hallway vibe */
+    background-image: url('../images/white-hall.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Darkened the text color so it stands out against background */
+    color: #140a27
 }
 
 div input {
     margin: 10px;
-    color: #40315d;
 }
 
 form span {
