@@ -221,6 +221,15 @@ aside a:hover {
    border-radius: 20%;
 }
 
+form {
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+div input {
+    margin: 10px;
+}
+
 footer {
     color: rgb(64, 49, 93);
     height: 150px;
