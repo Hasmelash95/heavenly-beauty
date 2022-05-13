@@ -33,23 +33,23 @@
         <form method="POST" action="">
             <div>
                 <label for="firstname">First Name</label>
-                <input type="text" id="firstname">
+                <input type="text" id="firstname" required>
             </div>
             <div>
                 <label for="lastname">Last Name</label>
-                <input type="text" id="lastname">
+                <input type="text" id="lastname" required>
             </div>
             <div>
                 <label for="age">Age</label>
-                <input type="number" id="age">
+                <input type="number" id="age" required>
             </div>
             <div>
                 <label for="email">Email</label>
-                <input type="email" id="email">
+                <input type="email" id="email" required>
             </div>
             <div>
                 What skin type do you have?
-                <input type="radio" id="normal" value="normal" name="skin">
+                <input type="radio" id="normal" value="normal" name="skin" required>
                 <label for="normal">Normal</label>
                 <input type="radio" id="sensitive" value="sensitive" name="skin">
                 <label for="sensitive">Sensitive</label>
@@ -62,7 +62,7 @@
             </div>
             <div>
                 What is your skin's undertone?
-                <input type="radio" id="warm" value="warm" name="undertone">
+                <input type="radio" id="warm" value="warm" name="undertone" required>
                 <label for="warm">Warm</label>
                 <input type="radio" id="cool" value="cool" name="undertone">
                 <label for="cool">Cool</label>
@@ -71,7 +71,7 @@
             </div>
             <div>
                 How often do you apply makeup every week?
-                <input type="radio" id="once-a-week" value="once-a-week" name="routine">
+                <input type="radio" id="once-a-week" value="once-a-week" name="routine" required>
                 <label for="once-a-week">Once a Week</label>
                 <input type="radio" id="twice-a-week" value="twice-a-week" name="routine">
                 <label for="twice-a-week">Twice a Week</label>
@@ -82,7 +82,7 @@
             </div>
             <div>
                 What's your preferred style?
-                <input type="radio" id="natural" value="natural" name="style">
+                <input type="radio" id="natural" value="natural" name="style" required>
                 <label for="natural">Natural</label>
                 <input type="radio" id="dramatic" value="dramatic" name="style">
                 <label for="dramatic">Dramatic</label>
@@ -93,6 +93,8 @@
                 <input type="radio" id="quirky" value="quirky" name="style">
                 <label for="quirky">Quirky</label>
             </div>
+            <!-- This may seem like a lot but the level of detail will give the user confidence that the personalised
+            beauty regimine is well thought out and authentic -->
             <div>
                 Which of these products do you own? (Select all that apply)
                 <input type="checkbox" id="foundation" name="products" value="yes">
@@ -126,6 +128,9 @@
                 <label for="lottie">Lottie London</label>
                 <input type="checkbox" id="loreal" name="brands" value="yes">
                 <label for="loreal">L'Oréal Paris</label>
+            </div>
+            <div>
+                <input type="submit" value="Subscribe">
             </div>
         </form>
     </section>
