@@ -253,6 +253,10 @@ form span {
     font-size: large;
 }
 
+#gender {
+    padding-bottom: 10px;
+}
+
 #email {
     border: 2px ridge #40315d;
     width: 400px;
