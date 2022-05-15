@@ -136,19 +136,17 @@ a #no-barrier {
     text-align: center;
 }
 
-/* To format the article headings in beauty hacks page in one go */
-article h2 {
-    margin-left: 30px;
-    margin-top: 30px;
-}
 
 /* To format the first two articles in beauty hacks page in one go */
-.tips ul {
+.tips {
     margin-left: 30px;
     margin-right: 30px;
-    list-style-type: none;
     padding: 10px 30px;
     width: 40%;
+}
+
+.tips ul { 
+    list-style-type: none;
 }
 
 /* The woman-looking-in mirror image in beauty hacks page */
@@ -295,9 +293,33 @@ footer {
 
 /* Media queries */
 
-/* Larger screens 1100px and down */
+/* Larger screens 1200px and down */
 @media screen and (max-width: 1200px) {
-   aside {
+   #mirror-woman {
        float: left;
    }
 }
+
+/* Medium screens 1000px and down */
+@media screen and (max-width: 1000px) {
+    #why-subscribe ul {
+        border-radius: 20%;
+    }
+
+    #why-subscribe ul:hover {
+        list-style-type: none;
+        padding: 5px 0 5px 0;
+        background-color: #40315d;
+        color: rgb(214, 230, 244);
+        width: 100%;
+        border-radius: 20%;
+        text-align: center;
+    }
+
+    aside {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+/* For medium to smaller screens 900px and down */
