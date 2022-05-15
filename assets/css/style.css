@@ -79,13 +79,13 @@ div #quote {
 
 /* Hero image */
 a #no-barrier {
-    color:#40315d;
+    color:#21113f;
     text-align: center;
     padding: 50px;
 }
 
 #no-barrier {
-    background-image: url('../images/compact-powder.jpg');
+    background: url('../images/compact-powder.jpg') no-repeat center center;
     background-color: #c4acbe;
     background-size: cover;
     height: 500px;
@@ -120,7 +120,6 @@ a #no-barrier {
 #why-subscribe ul {
     list-style-type: none;
     padding: 5px 0 5px 0;
-    background-color: rgb(233, 238, 243);
     width: 100%;
     border: 4px ridge #5a4780;
     border-radius: 50%;
