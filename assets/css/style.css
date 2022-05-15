@@ -147,11 +147,9 @@ article h2 {
 .tips ul {
     margin-left: 30px;
     margin-right: 30px;
-    border: 4px ridge #40315d;
     list-style-type: none;
     padding: 10px 30px;
     width: 40%;
-    background-color: rgb(233, 238, 243);
 }
 
 /* The woman-looking-in mirror image in beauty hacks page */
@@ -165,60 +163,38 @@ article h2 {
     border: 4px ridge #40315d;
 }
 
-/* Relative positioning made it easier to orient */
 aside {
-    width: 400px;
-    height: 200px;
-    position: relative;
-    bottom: 300px;
-    left: 900px;
-}
-
-aside h2 {
-    text-align: center;;
-}
-
-aside p {
-    border: 4px ridge #40315d;
-    border-radius: 90%;
-    padding: 40px 80px;
-    background-color:rgb(233, 238, 243);
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    right: 300px;
 }
 
 aside a:hover {
     border-bottom: 1px solid #40315d;
 }
 
-#brands h2 {
-    position: relative;
-    bottom: 100px;
-    font-size: larger;
-    margin-left: 100px;
+#brands {
     text-transform: uppercase;
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../images/makeup-on-table.jpg') no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    display: block;
 }
 
 #brands ul {
     list-style-type: none;
-    text-transform: uppercase;
-    position: relative;
-    bottom: 100px;
-    font-size: large;
-    margin-left: 120px;
 }
 
 /* To maintain consistency with the other external links */
 #brands a:hover {
     border-bottom: 1px solid #40315d;
-}
-
-/* Image is positioned in a way to ensure the user knows to continue to scroll down the page */
-#table-makeup {
-   float: right;
-   width: 800px;
-   height: 600px;
-   margin-right: 30px;
-   border: 4px ridge #40315d;
-   border-radius: 20%;
 }
 
 form {
@@ -229,7 +205,7 @@ form {
     background-size: cover;
     background-position: center;
     /* Darkened the text color so it stands out against background */
-    color: #140a27
+    color: #140a27;
 }
 
 div input {
@@ -293,6 +269,7 @@ legend {
     text-decoration: underline;
 }
 
+/* Footer section */
 footer {
     color: rgb(64, 49, 93);
     height: 150px;
@@ -311,4 +288,13 @@ footer {
 #copyright {
     float: right;
     padding: 40px;
+}
+
+/* Media queries */
+
+/* Larger screens 1100px and down */
+@media screen and (max-width: 1200px) {
+   aside {
+       float: left;
+   }
 }
