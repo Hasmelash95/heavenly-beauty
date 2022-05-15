@@ -184,17 +184,22 @@ aside a:hover {
     background-size: cover;
     width: 50%;
     height: 400px;
-    text-align: center;
     display: block;
+    color: #29030c;
 }
 
 #brands ul {
     list-style-type: none;
+    float: right;
+}
+
+#brands a {
+    color: #ffffff;
 }
 
 /* To maintain consistency with the other external links */
 #brands a:hover {
-    border-bottom: 1px solid #40315d;
+    border-bottom: 1px solid rgb(246, 0, 0);
 }
 
 form {
