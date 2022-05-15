@@ -177,29 +177,28 @@ aside a:hover {
 
 #brands {
     text-transform: uppercase;
-    font-size: medium;
+    font-size: larger;
     margin-left: auto;
     margin-right: auto;
-    background: url('../images/makeup-on-table.jpg') no-repeat;
+    background: url('../images/purple-lipstick.jpg');
     background-size: cover;
     width: 50%;
     height: 400px;
     display: block;
-    color: #29030c;
 }
 
 #brands ul {
     list-style-type: none;
-    float: right;
+    float: left;
 }
 
 #brands a {
-    color: #ffffff;
+    color: #40315d;
 }
 
 /* To maintain consistency with the other external links */
 #brands a:hover {
-    border-bottom: 1px solid rgb(246, 0, 0);
+    border-bottom: 1px solid #140a27;
 }
 
 form {
