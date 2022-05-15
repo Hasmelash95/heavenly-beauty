@@ -322,4 +322,37 @@ footer {
     }
 }
 
-/* For medium to smaller screens 900px and down */
+/* For medium to smaller screens 800px and down */
+@media screen and (max-width: 800px) {
+    aside {
+        left: 400px;    
+    }
+
+    #brands {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    #copyright {
+        position: absolute;
+        margin-left: 0;
+        margin-bottom: 0;
+        
+    }
+}
+
+/* For smaller screens 600px and down */
+@media screen and (max-width: 600px) {
+        nav {
+            float: left;
+        }
+
+        #why-subscribe ul {
+            border-radius: 10%;
+        }
+
+        #mirror-woman {
+            width: 400px;
+            height: 300px;
+        }
+}
