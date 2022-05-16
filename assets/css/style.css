@@ -288,6 +288,9 @@ footer {
 
 #copyright {
     float: left;
+    position: absolute;
+    margin-left: 0;
+    margin-bottom: 0;       
 }
 
 /* Media queries */
@@ -331,13 +334,6 @@ footer {
         margin-left: 10px;
         width: 100%;
     }
-
-    #copyright {
-        position: absolute;
-        margin-left: 0;
-        margin-bottom: 0;
-        
-    }
 }
 
 /* For smaller screens 600px and down */
@@ -361,6 +357,22 @@ footer {
         width: 400px;
         height: 300px;
     }
+
+    aside {
+        left: 350px;
+    }
+
+    form {
+        padding-left: 0;
+    }
+
+    .name {
+        width: 150px;
+    }
+
+    #email {
+        width: 200px;
+    }
 }
 
 /* For very small screens 450px and down */
@@ -372,7 +384,7 @@ footer {
     }
 
     aside {
-        left: 220px;
+        left: 270px;
     }
 
     #brands {
