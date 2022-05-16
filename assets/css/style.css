@@ -283,12 +283,11 @@ footer {
 #social-media i {
     font-size: xx-large;
     float: left;
-    padding: 40px;    
+    padding: 50px;    
 }
 
 #copyright {
-    float: right;
-    padding: 40px;
+    float: left;
 }
 
 /* Media queries */
@@ -343,16 +342,47 @@ footer {
 
 /* For smaller screens 600px and down */
 @media screen and (max-width: 600px) {
-        nav {
-            float: left;
-        }
+    nav {
+        float: left;
+    }
 
-        #why-subscribe ul {
-            border-radius: 10%;
-        }
+    a #no-barrier {
+        width: 230px;
+        height: 230px;
+        font-size: small;
+        padding-top: 5px;
+    }
 
-        #mirror-woman {
-            width: 400px;
-            height: 300px;
-        }
+    #why-subscribe ul {
+        border-radius: 10%;
+    }
+
+    #mirror-woman {
+        width: 400px;
+        height: 300px;
+    }
 }
+
+/* For very small screens 450px and down */
+@media screen and (max-width: 450px) {
+
+    #mirror-woman {
+        width: 300px;
+        height: 200px;
+    }
+
+    aside {
+        left: 220px;
+    }
+
+    #brands {
+        margin-left: 0;
+        width: 100%;
+        font-size: medium;
+    }
+
+    #social-media i {
+        padding: 30px;
+    }
+}
+
