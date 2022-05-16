@@ -122,15 +122,17 @@ a #no-barrier {
     padding: 5px 0 5px 0;
     width: 100%;
     border: 4px ridge #5a4780;
-    border-radius: 50%;
+    border-radius: 20%;
     text-align: center;
+    background: url('../images/white-hall.jpg') no-repeat center center;
+    background-size: cover;
+    color: #21113f;
 }
 
 #why-subscribe ul:hover {
     list-style-type: none;
     padding: 5px 0 5px 0;
-    background-color: #40315d;
-    color: rgb(214, 230, 244);
+    color: #140a27;
     width: 100%;
     border-radius: 50%;
     text-align: center;
@@ -202,9 +204,8 @@ form {
     padding-left: 30px;
     padding-top: 40px;
     /* Image gives heavenly hallway vibe */
-    background-image: url('../images/white-hall.jpg');
+    background: url('../images/white-hall.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
     /* Darkened the text color so it stands out against background */
     color: #140a27;
 }
@@ -305,14 +306,14 @@ footer {
 /* Medium screens 1000px and down */
 @media screen and (max-width: 1000px) {
     #why-subscribe ul {
-        border-radius: 20%;
+        border-radius: 10%;
     }
 
     #why-subscribe ul:hover {
         list-style-type: none;
         padding: 5px 0 5px 0;
-        background-color: #40315d;
-        color: rgb(214, 230, 244);
+        border-radius: 50%;
+        color: #140a27;
         width: 100%;
         border-radius: 20%;
         text-align: center;
@@ -351,6 +352,10 @@ footer {
 
     #why-subscribe ul {
         border-radius: 10%;
+    }
+
+    #why-subscribe ul:hover {
+        border-radius: 15%;
     }
 
     #mirror-woman {
