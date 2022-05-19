@@ -201,7 +201,7 @@ form {
     margin-bottom: 3rem;
 }
 
-/* To stack the labels instead of having them in-line - thank you Brian*/ 
+/* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/ 
 input, label {
     display: block;
 }
