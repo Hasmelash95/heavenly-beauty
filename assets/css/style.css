@@ -12,7 +12,7 @@
 header {
     background-image: url('../images/sky-with-clouds.jpg');
     background-color: rgb(214, 230, 244);
-    height: 200px;
+    height: 12rem;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -22,7 +22,7 @@ body {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
     color: #21113f;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
  #heavenly {
@@ -34,7 +34,7 @@ body {
 
 h1 {
     color: #21113f;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 /* Navigation bar styling */
@@ -48,7 +48,6 @@ nav {
     list-style-type: none;
     padding: 10px;
     font-size: 1.5rem;
-    background-color: #fff;
 }
 
 /* So links default to underlining unless I specify it */
@@ -123,6 +122,7 @@ a h2:hover {
     background-size: cover;
     color: #21113f;
     margin-top: 40px;
+    border-radius: 5px;
 }
 
 #subscribe ul {
@@ -161,7 +161,7 @@ aside {
 }
 
 aside a:hover {
-    border-bottom: 1px solid #40315d;
+    text-decoration: underline;
 }
 
 #brands {
@@ -184,9 +184,9 @@ aside a:hover {
     color: #40315d;
 }
 
-/* To maintain consistency with the other external links */
+/* To maintain consistency with the other links */
 #brands a:hover {
-    border-bottom: 1px solid #140a27;
+    text-decoration: underline;
 }
 
 form {
@@ -197,52 +197,56 @@ form {
     background-size: cover;
     /* Darkened the text color so it stands out against background */
     color: #140a27;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* To stack the labels instead of having them in-line - thank you Brian*/ 
+input, label {
+    display: block;
 }
 
 div input {
     margin: 10px;
 }
 
-form span {
-    font-size: larger;
-}
-
 .name {
     border: 2px ridge #40315d;
-    width: 300px;
-    height: 20px;
+    width: 15rem;
+    height: 2rem;
     padding: 5px 20px; 
-    font-size: larger;
+    font-size: 1.5rem;
     font-family: 'Cantarell', sans-serif;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
 #age {
     border: 2px ridge #40315d;
-    width: 90px;
-    height: 20px;
+    width: 7rem;
+    height: 2rem;
     padding: 5px 10px;
     text-align: center;
-    font-size: large;
+    font-size: 1.5rem;
     font-family: 'Cantarell', sans-serif;
 }
 
 #gender {
     padding-bottom: 10px;
+    display: inline;
 }
 
 #email {
     border: 2px ridge #40315d;
-    width: 400px;
-    height: 20px;
+    width: 15rem;
+    height: 2rem;
     padding: 5px 20px;
     font-size: larger;
     font-family: 'Cantarell', sans-serif;
 }
 
 #sub-button {
-    width: 200px;
-    height: 40px;
+    width: 20rem;
+    height: 3rem;
     font-size: larger;
     font-family: 'Cantarell', sans-serif;
     border: 2px ridge #40315d;
@@ -262,8 +266,7 @@ legend {
 
 /* Footer section */
 footer {
-    color: rgb(64, 49, 93);
-    height: 150px;
+    height: 12rem;
     width: 100%;
     background-color: rgb(64, 49, 93, 0.4);
     margin-top: 30px;
@@ -271,7 +274,7 @@ footer {
 
 /* For the social media icons */
 #social-media i {
-    font-size: xx-large;
+    font-size: 2rem;
     float: left;
     padding: 50px;    
 }
@@ -294,19 +297,6 @@ footer {
 
 /* Medium screens 1000px and down */
 @media screen and (max-width: 1000px) {
-    #why-subscribe ul {
-        border-radius: 10%;
-    }
-
-    #why-subscribe ul:hover {
-        list-style-type: none;
-        padding: 5px 0 5px 0;
-        border-radius: 50%;
-        color: #140a27;
-        width: 100%;
-        border-radius: 20%;
-        text-align: center;
-    }
 
     aside {
         width: 100px;
@@ -330,21 +320,14 @@ footer {
 @media screen and (max-width: 600px) {
     nav {
         float: left;
+        padding: 0;
     }
 
     a #no-barrier {
-        width: 230px;
-        height: 230px;
-        font-size: small;
+        width: 300px;
+        height: 300px;
+        font-size: 1rem;
         padding-top: 5px;
-    }
-
-    #why-subscribe ul {
-        border-radius: 10%;
-    }
-
-    #why-subscribe ul:hover {
-        border-radius: 15%;
     }
 
     #mirror-woman {
@@ -358,19 +341,28 @@ footer {
 
     form {
         padding-left: 0;
+        margin-top: 7rem;
+        margin-bottom: 7rem
     }
 
-    .name {
-        width: 150px;
-    }
-
-    #email {
-        width: 200px;
-    }
 }
 
 /* For very small screens 450px and down */
 @media screen and (max-width: 450px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #no-barrier {
+        left: 0;
+        width: 200px;
+        height: 200px;
+    }
 
     #mirror-woman {
         width: 300px;
@@ -378,13 +370,12 @@ footer {
     }
 
     aside {
-        left: 270px;
+        left: 250px;
     }
 
     #brands {
         margin-left: 0;
         width: 100%;
-        font-size: medium;
     }
 
     #social-media i {
