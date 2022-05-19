@@ -134,30 +134,26 @@ a h2:hover {
 /* To format the first two articles in beauty hacks page in one go */
 .tips {
     margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 30px;
     padding: 10px 30px;
-    width: 40%;
 }
 
 .tips ul { 
     list-style-type: none;
 }
 
-/* The woman-looking-in mirror image in beauty hacks page */
-#mirror-woman {
-    width: 650px;
-    height: 400px;
-    float: right;
-    margin-right: 30px;
-    margin-top: 15px;
+aside {
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
-aside {
-    width: 200px;
-    height: 100px;
-    position: absolute;
-    top: 700px;
-    right: 300px;
+/* The woman-looking-in mirror image in beauty hacks page */
+#mirror-woman {
+   margin-right: auto;
+   margin-left: auto;
+   display: block;
+   width: 50rem;
+   height: 35rem;
 }
 
 aside a:hover {
@@ -166,12 +162,13 @@ aside a:hover {
 
 #brands {
     text-transform: uppercase;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     background: url('../images/purple-lipstick.jpg');
     background-size: cover;
     width: 50%;
-    height: 400px;
+    height: 30rem;
     display: block;
 }
 
@@ -288,27 +285,16 @@ footer {
 
 /* Media queries */
 
-/* Larger screens 1200px and down */
-@media screen and (max-width: 1200px) {
-   #mirror-woman {
-       float: left;
-   }
-}
-
 /* Medium screens 1000px and down */
 @media screen and (max-width: 1000px) {
 
-    aside {
-        width: 100px;
-        height: 50px;
+    body {
+        font-size: 1.25rem;
     }
 }
 
 /* For medium to smaller screens 800px and down */
 @media screen and (max-width: 800px) {
-    aside {
-        left: 400px;    
-    }
 
     #brands {
         margin-left: 10px;
@@ -318,6 +304,11 @@ footer {
 
 /* For smaller screens 600px and down */
 @media screen and (max-width: 600px) {
+
+    body {
+        font-size: 1rem;
+    }
+
     nav {
         float: left;
         padding: 0;
@@ -326,17 +317,7 @@ footer {
     a #no-barrier {
         width: 300px;
         height: 300px;
-        font-size: 1rem;
         padding-top: 5px;
-    }
-
-    #mirror-woman {
-        width: 400px;
-        height: 300px;
-    }
-
-    aside {
-        left: 350px;
     }
 
     form {
@@ -351,7 +332,7 @@ footer {
 @media screen and (max-width: 450px) {
 
     body {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     h1 {
@@ -364,18 +345,10 @@ footer {
         height: 200px;
     }
 
-    #mirror-woman {
-        width: 300px;
-        height: 200px;
-    }
-
-    aside {
-        left: 250px;
-    }
-
     #brands {
         margin-left: 0;
         width: 100%;
+        height: 20rem;
     }
 
     #social-media i {
