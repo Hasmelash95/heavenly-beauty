@@ -16,22 +16,25 @@ header {
     width: 100%;
     background-position: center;
     background-size: cover;
-    color:#40315d;
 }
 
 body {
     font-family: 'Cantarell', sans-serif;
     font-weight: 300;
-    color: #40315d;
+    color: #21113f;
+    font-size: 1rem;
 }
 
  #heavenly {
-    color: #40315d;
     text-align: center;
     padding-top: 70px;
-    font-size: 25px;
     font-family: 'IM Fell Double Pica', serif;
     font-weight: 400;
+}
+
+h1 {
+    color: #21113f;
+    font-size: 3rem;
 }
 
 /* Navigation bar styling */
@@ -43,28 +46,25 @@ nav {
 #nav li {
     display: inline-block;
     list-style-type: none;
-    padding: 5px 10px 5px 10px;
-    color: #40315d;
-    font-size: large;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #fff;
 }
 
 /* So links default to underlining unless I specify it */
 a { 
     text-decoration: none;
+    color: #21113f;
 }
 
 /* For when user hovers over the navigation button */
 #nav a:hover {
-    color:rgb(214, 230, 244);
-    background-color: #40315d;   
-    padding: 5px 10px 5px 10px;   
+    border-bottom: 0.15rem solid #140a27;
 }
 
 /* For when user clicks on the button, thereby 'activating' the page */
 .active {
-    color:rgb(214, 230, 244);
-    background-color: #40315d;   
-    padding: 5px 10px 5px 10px; 
+    border-bottom: 0.15rem solid #140a27;
 }
 
 /* Inspirational quote to boost user's mood */
@@ -91,9 +91,9 @@ a #no-barrier {
     height: 500px;
     width: 75%;
     padding: 10px;
-    border-radius: 20%;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto; 
+    border-radius: 5px; 
 
     /* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
     animation-name: approach-screen;
@@ -158,8 +158,6 @@ a #no-barrier {
     float: right;
     margin-right: 30px;
     margin-top: 15px;
-    border-radius: 90%;
-    border: 4px ridge #40315d;
 }
 
 aside {
@@ -176,7 +174,6 @@ aside a:hover {
 
 #brands {
     text-transform: uppercase;
-    font-size: larger;
     margin-left: auto;
     margin-right: auto;
     background: url('../images/purple-lipstick.jpg');
