@@ -34,7 +34,7 @@ body {
 
 h1 {
     color: #21113f;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 /* Navigation bar styling */
@@ -59,12 +59,12 @@ a {
 
 /* For when user hovers over the navigation button */
 #nav a:hover {
-    border-bottom: 0.15rem solid #140a27;
+    text-decoration: underline;
 }
 
 /* For when user clicks on the button, thereby 'activating' the page */
 .active {
-    border-bottom: 0.15rem solid #140a27;
+    text-decoration: underline;
 }
 
 /* Inspirational quote to boost user's mood */
@@ -82,6 +82,11 @@ a #no-barrier {
     color:#21113f;
     text-align: center;
     padding: 50px;
+}
+
+/* Applies to the other h2 heading on the home page */
+a h2:hover {
+    text-decoration: underline;
 }
 
 #no-barrier {
@@ -112,32 +117,19 @@ a #no-barrier {
 }
 
 /* Subscription section, goal is to draw the users to the subscription page */
-#subscribe-now {
-    text-align: center;
-    padding-top: 10px;
-}
-
-#why-subscribe ul {
-    list-style-type: none;
-    padding: 5px 0 5px 0;
-    width: 100%;
-    border: 4px ridge #5a4780;
-    border-radius: 20%;
+#subscribe {
     text-align: center;
     background: url('../images/white-hall.jpg') no-repeat center center;
     background-size: cover;
     color: #21113f;
+    margin-top: 40px;
 }
 
-#why-subscribe ul:hover {
+#subscribe ul {
     list-style-type: none;
-    padding: 5px 0 5px 0;
-    color: #140a27;
+    padding: 5px 0;
     width: 100%;
-    border-radius: 50%;
-    text-align: center;
 }
-
 
 /* To format the first two articles in beauty hacks page in one go */
 .tips {
