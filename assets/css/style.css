@@ -195,8 +195,8 @@ form {
     background-size: cover;
     /* Darkened the text color so it stands out against background */
     color: #140a27;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/ 
@@ -233,8 +233,13 @@ div input {
     width: 15rem;
     height: 2rem;
     padding: 5px 20px;
-    font-size: larger;
+    font-size: 1.5rem;
     font-family: 'Cantarell', sans-serif;
+}
+
+option {
+    height: 2rem;
+    font-size: 1.5rem;
 }
 
 #sub-button {
@@ -242,12 +247,12 @@ div input {
     height: 3rem;
     font-size: larger;
     font-family: 'Cantarell', sans-serif;
-    border: 2px ridge #40315d;
-    color: #40315d;
+    border: 2px ridge #140a27;
+    color: #21113f;
 }
 
 #sub-button:hover {
-    background-color: #40315d;
+    background-color: #21113f;
     color: rgb(214, 230, 244);
 }
 
@@ -287,10 +292,6 @@ footer {
     body {
         font-size: 1.25rem;
     }
-}
-
-/* For medium to smaller screens 800px and down */
-@media screen and (max-width: 800px) {
 
     #brands {
         margin-left: 10px;
@@ -310,10 +311,11 @@ footer {
         padding: 0;
     }
 
-    a #no-barrier {
+    #no-barrier {
         width: 300px;
         height: 300px;
         padding-top: 5px;
+        left: 0;
     }
 
     form {
@@ -321,14 +323,13 @@ footer {
         margin-top: 7rem;
         margin-bottom: 7rem
     }
-
 }
 
 /* For very small screens 450px and down */
 @media screen and (max-width: 450px) {
 
     body {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 
     h1 {
@@ -336,7 +337,6 @@ footer {
     }
 
     #no-barrier {
-        left: 0;
         width: 200px;
         height: 200px;
     }
@@ -352,3 +352,32 @@ footer {
     }
 }
 
+/* For tiny screens 380px and down */
+@media screen and (max-width: 380px) {
+    body {
+        font-size: 0.5rem;
+    }
+}
+
+/* For larger screens 1600px and up */
+@media screen and (min-width: 1600px) {
+    
+    body {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    #no-barrier {
+        height: 700px;
+    }
+}
+
+/* For very large screens 2300px and up */
+@media screen and (min-width: 2300px) {
+   #no-barrier {
+       height: 850px;
+   }
+}
