@@ -267,20 +267,21 @@ div .checkbox {
     border: 3px ridge #140a27;
     padding-left: 10px;
     padding-top: 10px;
-    width: 25%;
-    background-color: rgba(230, 235, 235, 0.5)
+    width: 30rem;
+    background-color: rgba(233, 230, 235, 0.5)
 }
 
-#sub-button {
+button {
 	width: 20rem;
 	height: 3rem;
 	font-size: larger;
 	font-family: 'Cantarell', sans-serif;
 	border: 2px ridge #140a27;
 	color: #21113f;
+	background-color: rgba(233, 230, 235, 0.5);
 }
 
-#sub-button:hover {
+button:hover {
 	background-color: #21113f;
 	color: rgb(214, 230, 244);
 }
