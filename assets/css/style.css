@@ -3,291 +3,294 @@
 
 /* To remove some default alignments */
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 /* Header styling */
 header {
-    background-image: url('../images/sky-with-clouds.jpg');
-    background-color: rgb(214, 230, 244);
-    height: 12rem;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+	background-image: url('../images/sky-with-clouds.jpg');
+	background-color: rgb(214, 230, 244);
+	height: 12rem;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
 }
 
 body {
-    font-family: 'Cantarell', sans-serif;
-    font-weight: 300;
-    color: #21113f;
-    font-size: 1.5rem;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 300;
+	color: #21113f;
+	font-size: 1.5rem;
 }
 
- #heavenly {
-    text-align: center;
-    padding-top: 70px;
-    font-family: 'IM Fell Double Pica', serif;
-    font-weight: 400;
+#heavenly {
+	text-align: center;
+	padding-top: 70px;
+	font-family: 'IM Fell Double Pica', serif;
+	font-weight: 400;
 }
 
 h1 {
-    color: #21113f;
-    font-size: 3.5rem;
+	color: #21113f;
+	font-size: 3.5rem;
 }
 
 /* Navigation bar styling */
 nav {
-    text-align: center;
-    margin: 0 auto;
+	text-align: center;
+	margin: 0 auto;
 }
 
 #nav li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 10px;
-    font-size: 1.5rem;
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+	font-size: 1.5rem;
 }
 
 /* So links default to underlining unless I specify it */
-a { 
-    text-decoration: none;
-    color: #21113f;
+a {
+	text-decoration: none;
+	color: #21113f;
 }
 
 /* For when user hovers over the navigation button */
 #nav a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* For when user clicks on the button, thereby 'activating' the page */
 .active {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* Inspirational quote to boost user's mood */
 div #quote {
-    padding: 20px;
+	padding: 20px;
 }
 
 #quote {
-    text-align: center;
-    color:#40315d
+	text-align: center;
+	color: #40315d
 }
 
 /* Hero image */
 a #no-barrier {
-    color:#21113f;
-    text-align: center;
-    padding: 50px;
+	color: #21113f;
+	text-align: center;
+	padding: 50px;
 }
 
 /* Applies to the other h2 heading on the home page */
 a h2:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #no-barrier {
-    background: url('../images/compact-powder.jpg') no-repeat center center;
-    background-color: #c4acbe;
-    background-size: cover;
-    height: 500px;
-    width: 75%;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto; 
-    border-radius: 5px; 
+	background: url('../images/compact-powder.jpg') no-repeat center center;
+	background-color: #c4acbe;
+	background-size: cover;
+	height: 500px;
+	width: 75%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
 
-    /* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
-    animation-name: approach-screen;
-    animation-duration: 7.5s;
-    animation-fill-mode: both;
+	/* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
+	animation-name: approach-screen;
+	animation-duration: 7.5s;
+	animation-fill-mode: both;
 }
 
 /* To configure the zoom value */
 @keyframes approach-screen {
-    from{
-        transform: scale(0.7)
-    }
-    to{
-        transform: scale(1)
-    }
+	from {
+		transform: scale(0.7)
+	}
+
+	to {
+		transform: scale(1)
+	}
 }
 
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
-    text-align: center;
-    background: url('../images/white-hall.jpg') no-repeat center center;
-    background-size: cover;
-    color: #21113f;
-    margin-top: 40px;
-    border-radius: 5px;
+	text-align: center;
+	background: url('../images/white-hall.jpg') no-repeat center center;
+	background-size: cover;
+	color: #21113f;
+	margin-top: 40px;
+	border-radius: 5px;
 }
 
 #subscribe ul {
-    list-style-type: none;
-    padding: 5px 0;
-    width: 100%;
+	list-style-type: none;
+	padding: 5px 0;
+	width: 100%;
 }
 
 /* To format the first two articles in beauty hacks page in one go */
 .tips {
-    margin-left: 30px;
-    margin-top: 30px;
-    padding: 10px 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 10px 30px;
 }
 
-.tips ul { 
-    list-style-type: none;
+.tips ul {
+	list-style-type: none;
 }
 
 aside {
-    margin-left: 50px;
-    margin-top: 30px;
+	margin-left: 50px;
+	margin-top: 30px;
 }
 
 /* The woman-looking-in mirror image in beauty hacks page */
 #mirror-woman {
-   margin-right: auto;
-   margin-left: auto;
-   margin-top: 30px;
-   display: block;
-   width: 100%;
-   height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 aside a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #brands {
-    text-transform: uppercase;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background: url('../images/purple-lipstick.jpg');
-    background-size: cover;
-    width: 50%;
-    height: 30rem;
-    display: block;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../images/purple-lipstick.jpg');
+	background-size: cover;
+	width: 50%;
+	height: 30rem;
+	display: block;
 }
 
 #brands ul {
-    list-style-type: none;
-    float: left;
+	list-style-type: none;
+	float: left;
 }
 
 #brands a {
-    color: #40315d;
+	color: #40315d;
 }
 
 /* To maintain consistency with the other links */
 #brands a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 form {
-    padding-left: 30px;
-    padding-top: 40px;
-    /* Image gives heavenly hallway vibe */
-    background: url('../images/white-hall.jpg') no-repeat center center;
-    background-size: cover;
-    /* Darkened the text color so it stands out against background */
-    color: #140a27;
-    margin-top: 30px;
-    margin-bottom: 30px;
+	padding-left: 30px;
+	padding-top: 40px;
+	/* Image gives heavenly hallway vibe */
+	background: url('../images/white-hall.jpg') no-repeat center center;
+	background-size: cover;
+	/* Darkened the text color so it stands out against background */
+	color: #140a27;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-/* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/ 
-input, label, option {
-    display: block;
+/* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/
+input,
+label,
+option {
+	display: block;
 }
 
 div input {
-    margin: 10px;
+	margin: 10px;
 }
 
 .name {
-    border: 2px ridge #40315d;
-    width: 15rem;
-    height: 2rem;
-    padding: 5px 20px; 
-    font-size: 1.5rem;
-    font-family: 'Cantarell', sans-serif;
+	border: 2px ridge #40315d;
+	width: 15rem;
+	height: 2rem;
+	padding: 5px 20px;
+	font-size: 1.5rem;
+	font-family: 'Cantarell', sans-serif;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
 #age {
-    border: 2px ridge #40315d;
-    width: 7rem;
-    height: 2rem;
-    padding: 5px 10px;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Cantarell', sans-serif;
+	border: 2px ridge #40315d;
+	width: 7rem;
+	height: 2rem;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Cantarell', sans-serif;
 }
 
 #email {
-    border: 2px ridge #40315d;
-    width: 15rem;
-    height: 2rem;
-    padding: 5px 20px;
-    font-size: 1.5rem;
-    font-family: 'Cantarell', sans-serif;
+	border: 2px ridge #40315d;
+	width: 15rem;
+	height: 2rem;
+	padding: 5px 20px;
+	font-size: 1.5rem;
+	font-family: 'Cantarell', sans-serif;
 }
 
 select {
-    height: 2rem;
-    font-size: 1.5rem;
-    color:#140a27;
-    font-family: 'Cantarell', sans-serif;
+	height: 2rem;
+	font-size: 1.5rem;
+	color: #140a27;
+	font-family: 'Cantarell', sans-serif;
 }
 
 div .checkbox {
-    padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 #sub-button {
-    width: 20rem;
-    height: 3rem;
-    font-size: larger;
-    font-family: 'Cantarell', sans-serif;
-    border: 2px ridge #140a27;
-    color: #21113f;
+	width: 20rem;
+	height: 3rem;
+	font-size: larger;
+	font-family: 'Cantarell', sans-serif;
+	border: 2px ridge #140a27;
+	color: #21113f;
 }
 
 #sub-button:hover {
-    background-color: #21113f;
-    color: rgb(214, 230, 244);
+	background-color: #21113f;
+	color: rgb(214, 230, 244);
 }
 
 legend {
-    font-size: larger;
-    padding-bottom: 10px;
-    text-decoration: underline;
+	font-size: larger;
+	padding-bottom: 10px;
+	text-decoration: underline;
 }
 
 /* Footer section */
 footer {
-    height: 12rem;
-    width: 100%;
-    background-color: rgb(64, 49, 93, 0.4);
-    margin-top: 30px;
+	height: 12rem;
+	width: 100%;
+	background-color: rgb(64, 49, 93, 0.4);
+	margin-top: 30px;
 }
 
 /* For the social media icons */
 #social-media i {
-    font-size: 2rem;
-    float: left;
-    padding: 50px;    
+	font-size: 2rem;
+	float: left;
+	padding: 50px;
 }
 
 #copyright {
-    float: left;
-    position: absolute;
-    margin-left: 0;
-    margin-bottom: 0;       
+	float: left;
+	position: absolute;
+	margin-left: 0;
+	margin-bottom: 0;
 }
 
 /* Media queries */
@@ -295,99 +298,99 @@ footer {
 /* Medium screens 1000px and down */
 @media screen and (max-width: 1000px) {
 
-    body {
-        font-size: 1.25rem;
-    }
+	body {
+		font-size: 1.25rem;
+	}
 
-    #brands {
-        margin-left: 10px;
-        width: 100%;
-    }
+	#brands {
+		margin-left: 10px;
+		width: 100%;
+	}
 }
 
 /* For smaller screens 600px and down */
 @media screen and (max-width: 600px) {
 
-    body {
-        font-size: 1rem;
-    }
+	body {
+		font-size: 1rem;
+	}
 
-    nav {
-        float: left;
-        padding: 0;
-    }
+	nav {
+		float: left;
+		padding: 0;
+	}
 
-    #no-barrier {
-        width: 300px;
-        height: 300px;
-        padding-top: 5px;
-        left: 0;
-    }
+	#no-barrier {
+		width: 300px;
+		height: 300px;
+		padding-top: 5px;
+		left: 0;
+	}
 
-    form {
-        padding-left: 0;
-        margin-top: 7rem;
-        margin-bottom: 7rem
-    }
+	form {
+		padding-left: 0;
+		margin-top: 7rem;
+		margin-bottom: 7rem
+	}
 }
 
 /* For very small screens 450px and down */
 @media screen and (max-width: 450px) {
 
-    body {
-        font-size: 0.75rem;
-    }
+	body {
+		font-size: 0.75rem;
+	}
 
-    h1 {
-        font-size: 3rem;
-    }
+	h1 {
+		font-size: 3rem;
+	}
 
-    #no-barrier {
-        width: 200px;
-        height: 200px;
-    }
+	#no-barrier {
+		width: 200px;
+		height: 200px;
+	}
 
-    #brands {
-        margin-left: 0;
-        width: 100%;
-        height: 20rem;
-    }
+	#brands {
+		margin-left: 0;
+		width: 100%;
+		height: 20rem;
+	}
 
-    #social-media i {
-        padding: 30px;
-    }
+	#social-media i {
+		padding: 30px;
+	}
 }
 
 /* For tiny screens 380px and down */
 @media screen and (max-width: 380px) {
-    body {
-        font-size: 0.5rem;
-    }
+	body {
+		font-size: 0.5rem;
+	}
 }
 
 /* For larger screens 1600px and up */
 @media screen and (min-width: 1600px) {
-    
-    body {
-        font-size: 1.75rem;
-    }
 
-    h1 {
-        font-size: 4.5rem;
-    }
+	body {
+		font-size: 1.75rem;
+	}
 
-    #no-barrier {
-        height: 700px;
-    }
+	h1 {
+		font-size: 4.5rem;
+	}
+
+	#no-barrier {
+		height: 700px;
+	}
 }
 
 /* For very large screens 2300px and up */
 @media screen and (min-width: 2300px) {
-   #no-barrier {
-       height: 850px;
-   }
+	#no-barrier {
+		height: 850px;
+	}
 
-   #brands {
-       height: 50rem;
-   }
+	#brands {
+		height: 50rem;
+	}
 }
