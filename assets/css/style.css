@@ -244,6 +244,10 @@ select {
     font-family: 'Cantarell', sans-serif;
 }
 
+div .checkbox {
+    padding-bottom: 20px;
+}
+
 #sub-button {
     width: 20rem;
     height: 3rem;
