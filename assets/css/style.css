@@ -128,8 +128,11 @@ a h2:hover {
 
 #subscribe ul {
 	list-style-type: none;
-	padding: 5px 0;
 	width: 100%;
+}
+
+#subscribe li {
+    padding: 20px;
 }
 
 /* To format the first two articles in beauty hacks page in one go */
