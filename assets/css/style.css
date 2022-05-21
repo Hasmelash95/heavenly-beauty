@@ -380,4 +380,8 @@ footer {
    #no-barrier {
        height: 850px;
    }
+
+   #brands {
+       height: 50rem;
+   }
 }
