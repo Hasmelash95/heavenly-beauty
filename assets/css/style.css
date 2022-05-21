@@ -146,6 +146,10 @@ a h2:hover {
 	list-style-type: none;
 }
 
+.tips li {
+    padding: 10px;
+}
+
 aside {
 	margin-left: 50px;
 	margin-top: 30px;
@@ -180,6 +184,10 @@ aside a:hover {
 #brands ul {
 	list-style-type: none;
 	float: left;
+}
+
+#brands li {
+    padding: 15px;
 }
 
 #brands a {
