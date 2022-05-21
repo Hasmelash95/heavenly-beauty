@@ -237,9 +237,11 @@ div input {
     font-family: 'Cantarell', sans-serif;
 }
 
-option {
+select {
     height: 2rem;
     font-size: 1.5rem;
+    color:#140a27;
+    font-family: 'Cantarell', sans-serif;
 }
 
 #sub-button {
