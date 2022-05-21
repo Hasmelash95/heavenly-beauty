@@ -201,13 +201,13 @@ aside a:hover {
 
 form {
 	padding-left: 30px;
-	padding-top: 40px;
+	padding-top: 30px;
 	/* Image gives heavenly hallway vibe */
 	background: url('../images/white-hall.jpg') no-repeat center center;
 	background-size: cover;
 	/* Darkened the text color so it stands out against background */
 	color: #140a27;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 }
 
@@ -267,14 +267,13 @@ div .checkbox {
     border: 3px ridge #140a27;
     padding-left: 10px;
     padding-top: 10px;
-    width: 30rem;
+    width: 30%;
     background-color: rgba(233, 230, 235, 0.5)
 }
 
 button {
-	width: 20rem;
+	width: 30%;
 	height: 3rem;
-	font-size: larger;
 	font-family: 'Cantarell', sans-serif;
 	border: 2px ridge #140a27;
 	color: #21113f;
@@ -323,9 +322,18 @@ footer {
 		font-size: 1.25rem;
 	}
 
+	#nav li {
+		font-size: 1.25rem;
+	}
+
 	#brands {
 		margin-left: 10px;
 		width: 100%;
+	}
+
+	select, .name, #age, #email {
+		font-size: 1.25rem;
+		height: 2rem;
 	}
 }
 
@@ -341,18 +349,30 @@ footer {
 		padding: 0;
 	}
 
+	#nav li {
+		font-size: 1rem;
+	}
+
 	#no-barrier {
 		width: 300px;
 		height: 300px;
 		padding-top: 5px;
-		left: 0;
+		padding-left: 5px;
 	}
 
 	form {
 		padding-left: 0;
-		margin-top: 7rem;
-		margin-bottom: 7rem
+		margin-top: 3rem;
 	}
+
+	select, .name, #age, #email {
+		font-size: 1rem;
+		height: 1.5rem;
+	}
+
+	button {
+		width: 40%;
+	} 
 }
 
 /* For very small screens 450px and down */
@@ -364,6 +384,10 @@ footer {
 
 	h1 {
 		font-size: 3rem;
+	}
+
+	#nav li {
+		font-size: 0.75rem;
 	}
 
 	#no-barrier {
@@ -380,12 +404,18 @@ footer {
 	#social-media i {
 		padding: 30px;
 	}
-}
 
-/* For tiny screens 380px and down */
-@media screen and (max-width: 380px) {
-	body {
-		font-size: 0.5rem;
+	select, .name, #age, #email {
+		font-size: 0.75rem;
+		height: 1rem;
+	}
+
+	#email {
+		width: 15rem;
+	}
+
+	button {
+		width: 50%;
 	}
 }
 
