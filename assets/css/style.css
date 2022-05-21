@@ -244,7 +244,7 @@ div input {
 
 #email {
 	border: 2px ridge #40315d;
-	width: 15rem;
+	width: 20rem;
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
@@ -253,13 +253,22 @@ div input {
 
 select {
 	height: 2rem;
+    width: 15rem;
 	font-size: 1.5rem;
 	color: #140a27;
 	font-family: 'Cantarell', sans-serif;
 }
 
-div .checkbox {
+div .checkbox-label {
 	padding-bottom: 20px;
+}
+
+div .checkbox {
+    border: 3px ridge #140a27;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 25%;
+    background-color: rgba(230, 235, 235, 0.5)
 }
 
 #sub-button {
