@@ -356,8 +356,18 @@ footer {
 		font-size: 1rem;
 	}
 
+	div #quote {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		padding: 0;
+	}
+
+	#quote {
+		text-align: left;
+	}
+
 	#no-barrier {
-		width: 300px;
+		width: 350px;
 		height: 300px;
 		padding-top: 5px;
 		padding-left: 5px;
@@ -397,9 +407,12 @@ footer {
 	}
 
 	#no-barrier {
-		width: 200px;
-		height: 200px;
-		
+		width: 250px;
+		height: 200px;	
+	}
+
+	a #no-barrier {
+		padding-top: 10px;
 	}
 
 	#brands {
@@ -426,6 +439,13 @@ footer {
 
 	button {
 		width: 50%;
+	}
+}
+
+/* For tiny screens 380px and down */
+@media screen and (max-width: 380px) {
+	#no-barrier {
+		width: 200px;
 	}
 }
 
