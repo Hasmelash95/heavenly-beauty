@@ -68,7 +68,7 @@
                 <legend>Additional Information:</legend>
                 <div>
                     <label for="skin">What skin type do you have?*</label>
-                    <select>
+                    <select required>
                         <option id="skin" name="skin" value="normal">Normal</option>
                         <option id="skin" name="skin" value="sensitive">Sensitive</option>
                         <option id="skin" name="skin" value="dry">Dry</option>
@@ -79,7 +79,7 @@
                 <br>
                 <div>
                     <label for="undertone">What is your skin's undertone?*</label>
-                    <select>
+                    <select required>
                         <option id="undertone" name="undertone" value="cool">Cool</option>
                         <option id="undertone" name="undertone" value="warm">Warm</option>
                         <option id="undertone" name="undertone" value="neutral">Neutral</option>
@@ -88,7 +88,7 @@
                 <br>
                 <div>
                     <label for="routine">How often do you apply makeup every week?*</label>
-                    <select>
+                    <select required>
                         <option id="routine" name="routine" value="once-a-week">Once a Week</option>
                         <option id="routine" name="routine" value="twice-a-week">Twice a Week</option>
                         <option id="routine" name="routine" value="several-days">Several Days a Week</option>
@@ -98,7 +98,7 @@
                 <br>
                 <div>
                     <label for="style">What's your preferred style?*</label>
-                    <select>
+                    <select required>
                         <option id="style" name="style" value="natural">Natural</option>
                         <option id="style" name="style" value="dramatic">Dramatic</option>
                         <option id="style" name="style" value="glamorous">Glamorous</option>
@@ -110,7 +110,7 @@
                 <!-- This may seem like a lot but the level of detail will give the user confidence that the personalised
             beauty regimine is well thought out and authentic -->
                 <div>
-                    <span>Which of these products do you own? (Select all that apply)</span>
+                    Which of these products do you own? (Select all that apply)
                     <label for="foundation">Foundation</label>
                     <input type="checkbox" id="foundation" name="products" value="yes">
                     <label for="leyeliner">Liquid Eyeliner</label>
@@ -132,7 +132,7 @@
                 </div>
                 <br>
                 <div>
-                    <span>Which of these brands have you used? (Select all that apply)</span>
+                    Which of these brands have you used? (Select all that apply)
                     <label for="beauty-bay">Beauty Bay</label>
                     <input type="checkbox" id="beauty-bay" name="brands" value="yes">
                     <label for="revolution">Revolution Beauty London</label>
