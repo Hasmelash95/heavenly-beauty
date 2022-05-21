@@ -200,7 +200,7 @@ form {
 }
 
 /* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/ 
-input, label {
+input, label, option {
     display: block;
 }
 
