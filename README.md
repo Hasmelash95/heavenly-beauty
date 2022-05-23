@@ -55,3 +55,5 @@ An image in the second page followed by articles with tips and tricks and extern
 A third page with a form to fill out to give information to the algorithm and the staff at Heavenly Beauty.
 
 ### Skeleton
+
+! [Header and Nav wireframe] (/README-assets/wireframes/header-nav.png?raw=true "Header-Nav")
