@@ -56,7 +56,19 @@ A third page with a form to fill out to give information to the algorithm and th
 
 ### Skeleton
 
-(Links to wireframe repository).
+#### Wireframes
+
+[Header and Navigation](https://user-images.githubusercontent.com/103432143/169900430-7b3b1a64-234e-40a6-9fba-928835e5407d.png)
+
+[Hero Image](https://user-images.githubusercontent.com/103432143/169900587-0c5ddea2-4980-4328-9b3f-b431cfad425b.png)
+
+[Why Subscribe and Footer](https://user-images.githubusercontent.com/103432143/169901093-2ef44339-887c-4eef-bb12-e9905e9591a2.png)
+
+[Top Half of Beauty Hacks Page](https://user-images.githubusercontent.com/103432143/169900876-84420486-4420-434c-bc87-a74cb3750fda.png)
+
+[Bottom Half of Beauty Hacks Page](https://user-images.githubusercontent.com/103432143/169900956-031d2cc6-592f-4d3d-9d19-ff464f1634d3.png)
+
+[Form](https://user-images.githubusercontent.com/103432143/169901173-013dd3db-4414-4381-b0ce-b3572e8943f7.png)
 
 ### Surface
 
