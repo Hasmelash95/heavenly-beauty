@@ -1,5 +1,4 @@
-/* Fonts from google fonts chosen for their smooth, heavenly feel */
-@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap");
 
 /* To remove some default alignments */
 * {
@@ -10,7 +9,7 @@
 
 /* Header styling */
 header {
-	background-image: url('../images/sky-with-clouds.jpg');
+	background-image: url("../images/sky-with-clouds.jpg");
 	background-color: rgb(214, 230, 244);
 	height: 12rem;
 	width: 100%;
@@ -19,7 +18,7 @@ header {
 }
 
 body {
-	font-family: 'Cantarell', sans-serif;
+	font-family: "Cantarell", sans-serif;
 	font-weight: 300;
 	color: #21113f;
 	font-size: 1.5rem;
@@ -28,7 +27,7 @@ body {
 #heavenly {
 	text-align: center;
 	padding-top: 70px;
-	font-family: 'IM Fell Double Pica', serif;
+	font-family: "IM Fell Double Pica", serif;
 	font-weight: 400;
 }
 
@@ -89,7 +88,7 @@ a h2:hover {
 }
 
 #no-barrier {
-	background: url('../images/compact-powder.jpg') no-repeat center center;
+	background: url("../images/compact-powder.jpg") no-repeat center center;
 	background-color: #c4acbe;
 	background-size: cover;
 	height: 500px;
@@ -119,7 +118,7 @@ a h2:hover {
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
-	background: url('../images/white-hall.jpg') no-repeat center center;
+	background: url("../images/white-hall.jpg") no-repeat center center;
 	background-size: cover;
 	color: #21113f;
 	margin-top: 40px;
@@ -174,7 +173,7 @@ aside a:hover {
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	background: url('../images/purple-lipstick.jpg');
+	background: url("../images/purple-lipstick.jpg");
 	background-size: cover;
 	width: 50%;
 	height: 30rem;
@@ -203,7 +202,7 @@ form {
 	padding-left: 30px;
 	padding-top: 30px;
 	/* Image gives heavenly hallway vibe */
-	background: url('../images/white-hall.jpg') no-repeat center center;
+	background: url("../images/white-hall.jpg") no-repeat center center;
 	background-size: cover;
 	/* Darkened the text color so it stands out against background */
 	color: #140a27;
@@ -228,7 +227,7 @@ div input {
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
-	font-family: 'Cantarell', sans-serif;
+	font-family: "Cantarell", sans-serif;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
@@ -239,7 +238,7 @@ div input {
 	padding: 5px 10px;
 	text-align: center;
 	font-size: 1.5rem;
-	font-family: 'Cantarell', sans-serif;
+	font-family: "Cantarell", sans-serif;
 }
 
 #email {
@@ -248,7 +247,7 @@ div input {
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
-	font-family: 'Cantarell', sans-serif;
+	font-family: "Cantarell", sans-serif;
 }
 
 select {
@@ -256,7 +255,7 @@ select {
 	width: 15rem;
 	font-size: 1.5rem;
 	color: #140a27;
-	font-family: 'Cantarell', sans-serif;
+	font-family: "Cantarell", sans-serif;
 }
 
 div .checkbox-label {
@@ -274,7 +273,8 @@ div .checkbox {
 button {
 	width: 30%;
 	height: 3rem;
-	font-family: 'Cantarell', sans-serif;
+	font-size: 1.5rem;
+	font-family: "Cantarell", sans-serif;
 	border: 2px ridge #140a27;
 	color: #21113f;
 	background-color: rgba(233, 230, 235, 0.5);
