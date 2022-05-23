@@ -9,7 +9,7 @@
 
 /* Header styling */
 header {
-	background-image: url("../images/sky-with-clouds.webp");
+	background: url("../images/sky-with-clouds.webp") no-repeat center center;
 	background-color: rgb(214, 230, 244);
 	height: 12rem;
 	width: 100%;
@@ -72,7 +72,7 @@ div #quote {
 
 #quote {
 	text-align: center;
-	color: #40315d
+	color: #21113f;
 }
 
 /* Hero image */
@@ -190,7 +190,7 @@ aside a:hover {
 }
 
 #brands a {
-	color: #40315d;
+	color: #21113f;
 }
 
 /* To maintain consistency with the other links */
