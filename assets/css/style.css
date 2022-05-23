@@ -9,7 +9,7 @@
 
 /* Header styling */
 header {
-	background-image: url("../images/sky-with-clouds.jpg");
+	background-image: url("../images/sky-with-clouds.webp");
 	background-color: rgb(214, 230, 244);
 	height: 12rem;
 	width: 100%;
@@ -88,7 +88,7 @@ a h2:hover {
 }
 
 #no-barrier {
-	background: url("../images/compact-powder.jpg") no-repeat center center;
+	background: url("../images/compact-powder.webp") no-repeat center center;
 	background-color: #c4acbe;
 	background-size: cover;
 	height: 500px;
@@ -100,7 +100,7 @@ a h2:hover {
 
 	/* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
 	animation-name: approach-screen;
-	animation-duration: 7.5s;
+	animation-duration: 5s;
 	animation-fill-mode: both;
 }
 
@@ -118,7 +118,7 @@ a h2:hover {
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
-	background: url("../images/white-hall.jpg") no-repeat center center;
+	background: url("../images/white-hall.webp") no-repeat center center;
 	background-size: cover;
 	color: #21113f;
 	margin-top: 40px;
@@ -160,7 +160,7 @@ aside {
 	margin-left: auto;
 	margin-top: 30px;
 	display: block;
-	width: 100%;
+	width: 75%;
 	height: auto;
 }
 
@@ -173,7 +173,7 @@ aside a:hover {
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	background: url("../images/purple-lipstick.jpg");
+	background: url("../images/purple-lipstick.webp");
 	background-size: cover;
 	width: 50%;
 	height: 30rem;
@@ -202,7 +202,7 @@ form {
 	padding-left: 30px;
 	padding-top: 30px;
 	/* Image gives heavenly hallway vibe */
-	background: url("../images/white-hall.jpg") no-repeat center center;
+	background: url("../images/white-hall.webp") no-repeat center center;
 	background-size: cover;
 	/* Darkened the text color so it stands out against background */
 	color: #140a27;
@@ -478,6 +478,10 @@ footer {
 
 /* For screens 3000px and up */
 @media screen and (min-width: 3000px) {
+	body {
+		font-size: 2rem;
+	}
+
 	#no-barrier {
 		height: 1000px
 	}

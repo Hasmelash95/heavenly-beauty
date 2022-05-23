@@ -1,4 +1,10 @@
-# Hermon Asmelash Portfolio Project
+# Hermon Asmelash 
+
+## Heavenly Beauty 
+
+A website for those looking for cost effective beauty tips and tricks, as well as a subscribe and pay service that sends customers personalised beauty regimines monthly for only 3.99 (GBP). An algorithm uses the information collected from users who fill out a form to ensure the beauty regimine is well suited to the client. 
+
+Business goals are to become a trusted source for clients looking for affordable beauty regimines and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
 
 ## User Experience (UX)
 
@@ -43,3 +49,9 @@ A hero image that makes the purpose of the website clear with a link to the seco
 A 'why subscribe' section under the hero image with a concise list with a link to the subscription page for ease. 
 
 A footer with social media icons that open in another tab to the social media pages of Heavenly Beauty.
+
+An image in the second page followed by articles with tips and tricks and external links to recommended brand websites.
+
+A third page with a form to fill out to give information to the algorithm and the staff at Heavenly Beauty.
+
+### Skeleton
