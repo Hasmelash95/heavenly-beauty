@@ -475,3 +475,35 @@ footer {
 		height: 50rem;
 	}
 }
+
+/* For screens 3000px and up */
+@media screen and (min-width: 3000px) {
+	#no-barrier {
+		height: 1000px
+	}
+}
+
+/* For screens 3500px and up */
+@media screen and (min-width: 3500px) {
+	#no-barrier {
+		height: 1250px;
+	}
+}
+
+/* For screens 4000px and up */
+@media screen and (min-width: 4000px) {
+	#no-barrier {
+		height: 1500px;
+	}
+
+	#brands {
+		height: 75rem;
+	}
+}
+
+/* For screens 5000px and up */
+@media screen and (min-width: 5000px) {
+	#no-barrier {
+		height: 1750px;
+	}
+}
