@@ -60,13 +60,14 @@ A third page with a form to fill out to give information to the algorithm and th
 
 ### Surface
 
-Fonts were imported from google fonts using: 
-@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap")
+Fonts were imported from google fonts using:
+```@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap")```
 
-IM Fell Double Pica for the website logo in the header and Cantarell for the body. The colors used were two shades of dark purple: #140a27 and ##21113f against a white background. The website has a general white and dark purple theme. The header and hero image have a pale blue and rosy theme respectively. 
+IM Fell Double Pica for the website logo in the header and Cantarell for the body. The colors used were two shades of dark purple: `#140a27` and `#21113f` against a white background. The website has a general white and dark purple theme. The header and hero image have a pale blue and rosy theme respectively. 
 
 Animation effects on the hero image draws the attention of the user as soon as the page loads. A white hallway was used as the background image for the subscription page and the why-subscribe section in the homepage.
 
 Font awesome icons were added using:
-<script src="https://kit.fontawesome.com/86de956f5a.js" crossorigin="anonymous"></script>
+```<script src="https://kit.fontawesome.com/86de956f5a.js" crossorigin="anonymous"></script>```
+
 Sun and cloud icons for the heavenly theme and social media icons for the footer. 
