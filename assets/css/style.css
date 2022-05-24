@@ -162,6 +162,7 @@ a h2:hover {
 aside {
 	margin-left: 50px;
 	margin-top: 30px;
+	letter-spacing: 0.05rem;
 }
 
 aside a {
