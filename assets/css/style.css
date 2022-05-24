@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap");
+/* Imported from google fonts */
 
 /* To remove some default alignments */
 * {
@@ -18,7 +19,7 @@ header {
 }
 
 body {
-	font-family: "Cantarell", sans-serif;
+	font-family: "Cantarell", Helvetica, sans-serif;
 	font-weight: 300;
 	color: #21113f;
 	font-size: 1.5rem;
@@ -27,7 +28,7 @@ body {
 #heavenly {
 	text-align: center;
 	padding-top: 70px;
-	font-family: "IM Fell Double Pica", serif;
+	font-family: "IM Fell Double Pica", Georgia, serif;
 	font-weight: 400;
 }
 
@@ -227,7 +228,7 @@ div input {
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
-	font-family: "Cantarell", sans-serif;
+	font-family: "Cantarell", Helvetica, sans-serif;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
@@ -238,7 +239,7 @@ div input {
 	padding: 5px 10px;
 	text-align: center;
 	font-size: 1.5rem;
-	font-family: "Cantarell", sans-serif;
+	font-family: "Cantarell", Helvetica, sans-serif;
 }
 
 #email {
@@ -247,7 +248,7 @@ div input {
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
-	font-family: "Cantarell", sans-serif;
+	font-family: "Cantarell", Helvetica, sans-serif;
 }
 
 select {
@@ -255,7 +256,7 @@ select {
 	width: 15rem;
 	font-size: 1.5rem;
 	color: #140a27;
-	font-family: "Cantarell", sans-serif;
+	font-family: "Cantarell", Helvetica, sans-serif;
 }
 
 div .checkbox-label {
@@ -274,7 +275,7 @@ button {
 	width: 30%;
 	height: 3rem;
 	font-size: 1.5rem;
-	font-family: "Cantarell", sans-serif;
+	font-family: "Cantarell", Helvetica, sans-serif;
 	border: 2px ridge #140a27;
 	color: #21113f;
 	background-color: rgba(233, 230, 235, 0.5);
