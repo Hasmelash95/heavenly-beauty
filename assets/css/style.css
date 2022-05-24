@@ -158,16 +158,6 @@ aside a {
 	color: #140a27;
 }
 
-/* The woman-looking-in mirror image in beauty hacks page */
-#mirror-woman {
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 30px;
-	display: block;
-	width: 75%;
-	height: auto;
-}
-
 aside a:hover {
 	text-decoration: underline;
 }
