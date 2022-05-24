@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=IM+Fell+Double+Pica:ital@1&display=swap");
-/* Imported from google fonts */
-
 /* To remove some default alignments */
 * {
 	margin: 0;
@@ -103,10 +100,7 @@ a #no-barrier {
 	margin-right: auto;
 }
 
-a #no-barrier:hover {
-	opacity: 1;
-	transition: opacity 5s;
-}
+/* Animation  */
 
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
@@ -163,7 +157,6 @@ aside a:hover {
 }
 
 #brands {
-	text-transform: uppercase;
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -318,13 +311,25 @@ footer {
 		font-size: 1.25rem;
 	}
 
-	#nav li {
-		font-size: 1.25rem;
+	#no-barrier {
+		opacity: 0.9;
+		animation: fadeinwards 5s;
 	}
 
+	@keyframes fadeinwards {
+		from { opacity: 0.5; }
+		to {
+			opacity: 1;
+		}
+	}
+	
 	#brands {
-		margin-left: 10px;
-		width: 100%;
+		opacity: 0.7;
+		margin-left: 5px;
+	}
+
+	#nav li {
+		font-size: 1.25rem;
 	}
 
 	select,
@@ -423,12 +428,11 @@ footer {
 	a #no-barrier {
 		padding-top: 10px;
 	}
-
-	#brands {
+ 
+    #brands {
 		margin-left: 0;
-		width: 100%;
 		height: 25rem;
-	}
+	} 
 
 	#social-media i {
 		padding: 30px;
@@ -455,6 +459,7 @@ footer {
 		width: 50%;
 	}
 }
+
 
 /* For tiny screens 380px and down */
 @media screen and (max-width: 380px) {
