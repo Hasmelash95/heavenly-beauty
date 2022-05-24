@@ -165,6 +165,10 @@ aside {
 	letter-spacing: 0.05rem;
 }
 
+aside p {
+	padding-top: 10px;
+}
+
 aside a {
 	color: #140a27;
 }
@@ -237,7 +241,7 @@ div input {
 }
 
 .name {
-	border: 2px ridge #40315d;
+	border: 2px ridge #140a27;
 	width: 15rem;
 	height: 2rem;
 	padding: 5px 20px;
@@ -247,7 +251,7 @@ div input {
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
 #age {
-	border: 2px ridge #40315d;
+	border: 2px ridge #140a27;
 	width: 7rem;
 	height: 2rem;
 	padding: 5px 10px;
@@ -257,7 +261,7 @@ div input {
 }
 
 #email {
-	border: 2px ridge #40315d;
+	border: 2px ridge #140a27;
 	width: 20rem;
 	height: 2rem;
 	padding: 5px 20px;
@@ -415,6 +419,7 @@ footer {
 
 	button {
 		width: 40%;
+		font-size: 1rem;
 	}
 }
 
