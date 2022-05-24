@@ -101,7 +101,10 @@ a #no-barrier {
 }
 
 /* Animation  */
-
+#no-barrier:hover {
+	opacity: 1;
+	transition: opacity 3s;
+}
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
