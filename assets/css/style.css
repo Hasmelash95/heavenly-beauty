@@ -19,8 +19,8 @@ header {
 }
 
 body {
-	font-family: "Cantarell", Helvetica, sans-serif;
-	font-weight: 300;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-weight: 200;
 	color: #21113f;
 	font-size: 1.5rem;
 }
@@ -28,13 +28,19 @@ body {
 #heavenly {
 	text-align: center;
 	padding-top: 70px;
-	font-family: "IM Fell Double Pica", Georgia, serif;
-	font-weight: 400;
-}
+}	
 
 h1 {
 	color: #21113f;
 	font-size: 3.5rem;
+	font-family: "Georgia", serif;
+	font-weight: 530;
+}
+
+h2,
+h3 {
+	font-family: "Georgia", serif;
+	font-weight: 500;
 }
 
 /* Navigation bar styling */
@@ -144,6 +150,7 @@ a h2:hover {
 
 .tips ul {
 	list-style-type: none;
+	letter-spacing: 0.05rem;
 }
 
 .tips li {
@@ -153,6 +160,10 @@ a h2:hover {
 aside {
 	margin-left: 50px;
 	margin-top: 30px;
+}
+
+aside a {
+	color: #140a27;
 }
 
 /* The woman-looking-in mirror image in beauty hacks page */
@@ -228,7 +239,7 @@ div input {
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
-	font-family: "Cantarell", Helvetica, sans-serif;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif, sans-serif;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
@@ -239,7 +250,7 @@ div input {
 	padding: 5px 10px;
 	text-align: center;
 	font-size: 1.5rem;
-	font-family: "Cantarell", Helvetica, sans-serif;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 #email {
@@ -248,7 +259,7 @@ div input {
 	height: 2rem;
 	padding: 5px 20px;
 	font-size: 1.5rem;
-	font-family: "Cantarell", Helvetica, sans-serif;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 select {
@@ -256,7 +267,7 @@ select {
 	width: 15rem;
 	font-size: 1.5rem;
 	color: #140a27;
-	font-family: "Cantarell", Helvetica, sans-serif;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 div .checkbox-label {
@@ -352,6 +363,10 @@ footer {
 		font-size: 1rem;
 	}
 
+	h1 {
+		font-size: 3.5rem;
+	}
+
 	nav {
 		float: left;
 		padding: 0;
@@ -428,7 +443,7 @@ footer {
 
 	#social-media i {
 		padding: 30px;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	select,
