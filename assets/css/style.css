@@ -93,7 +93,7 @@ a #no-barrier {
 
 #no-barrier {
 	background: url("../images/compact-powder.webp") no-repeat center center;
-	background-color: #c4acbe;
+	background-color: rgba(151, 142, 167, 0.3);
 	background-size: cover;
 	opacity: 0.3;
 	height: 500px;
@@ -155,7 +155,7 @@ aside p {
 }
 
 aside a {
-	color: #140a27;
+	color: #40256d;
 }
 
 aside a:hover {
@@ -188,9 +188,14 @@ aside a:hover {
 	color: #21113f;
 }
 
-/* To maintain consistency with the other links */
 #brands a:hover {
 	text-decoration: underline;
+}
+
+/* To maintain consistency with the other links */
+#brands:hover {
+	opacity: 1;
+	transition: opacity 5s;
 }
 
 form {
