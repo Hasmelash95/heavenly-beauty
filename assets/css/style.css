@@ -125,7 +125,7 @@ a #no-barrier {
 /* To format the first two articles in beauty hacks page in one go */
 .tips {
 	margin: 30px;
-	padding: 10px 30px;
+	padding: 30px 30px;
 	background-color: rgba(151, 142, 167, 0.3);
 }
 
@@ -163,7 +163,7 @@ aside a:hover {
 	background: url("../images/purple-lipstick.webp");
 	background-size: cover;
 	opacity: 0.5;
-	width: 50%;
+	width: 75%;
 	height: 30rem;
 	display: block;
 }
@@ -178,7 +178,7 @@ aside a:hover {
 }
 
 #brands a {
-	color: #21113f;
+	color: #140a27;
 }
 
 #brands a:hover {
@@ -345,6 +345,13 @@ footer {
 	}
 }
 
+/* For media screens 700px and down */
+@media screen and (max-width: 700px) {
+	#brands {
+		width: 500px;
+	}
+}
+
 /* For smaller screens 600px and down */
 @media screen and (max-width: 600px) {
 
@@ -380,6 +387,10 @@ footer {
 		height: 300px;
 		padding-top: 5px;
 		padding-left: 5px;
+	}
+
+	#brands {
+		width: 100%;
 	}
 
 	form {
@@ -428,6 +439,10 @@ footer {
 	a #no-barrier {
 		padding-top: 10px;
 	}
+
+	.tips {
+		margin-top: 30px;
+	}
  
     #brands {
 		margin-left: 0;
@@ -465,6 +480,10 @@ footer {
 @media screen and (max-width: 380px) {
 	#no-barrier {
 		width: 200px;
+	}
+
+	#brands {
+		width: 100%;
 	}
 }
 
