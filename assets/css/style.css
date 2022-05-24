@@ -113,7 +113,7 @@ a #no-barrier:hover {
 	text-align: center;
 	color: #140a27;
 	padding-top: 5px;
-	background-color: rgba(151, 142, 167, 0.4);
+	background-color: rgba(151, 142, 167, 0.3);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
@@ -130,9 +130,9 @@ a #no-barrier:hover {
 
 /* To format the first two articles in beauty hacks page in one go */
 .tips {
-	margin-left: 30px;
-	margin-top: 30px;
+	margin: 30px;
 	padding: 10px 30px;
+	background-color: rgba(151, 142, 167, 0.3);
 }
 
 .tips ul {
@@ -169,6 +169,7 @@ aside a:hover {
 	margin-right: auto;
 	background: url("../images/purple-lipstick.webp");
 	background-size: cover;
+	opacity: 0.5;
 	width: 50%;
 	height: 30rem;
 	display: block;
