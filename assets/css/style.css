@@ -21,8 +21,11 @@ header {
 body {
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 	font-weight: 200;
-	color: #21113f;
+	color: #140a27;
 	font-size: 1.5rem;
+	background: url("../images/white-hall.webp") no-repeat center center;
+	background-color: #fff;
+	background-size: cover;
 }
 
 #heavenly {
@@ -31,7 +34,7 @@ body {
 }	
 
 h1 {
-	color: #21113f;
+	color: #140a27;
 	font-size: 3.5rem;
 	font-family: "Georgia", serif;
 	font-weight: 530;
@@ -59,7 +62,7 @@ nav {
 /* So links default to underlining unless I specify it */
 a {
 	text-decoration: none;
-	color: #21113f;
+	color: #140a27;
 }
 
 /* For when user hovers over the navigation button */
@@ -85,7 +88,7 @@ div #quote {
 
 /* Hero image */
 a #no-barrier {
-	color: #21113f;
+	color: #140a27;
 	text-align: center;
 	padding: 50px;
 }
@@ -99,12 +102,12 @@ a h2:hover {
 	background: url("../images/compact-powder.webp") no-repeat center center;
 	background-color: #c4acbe;
 	background-size: cover;
+	opacity: 0.9;
 	height: 500px;
 	width: 75%;
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 5px;
 
 	/* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
 	animation-name: approach-screen;
@@ -126,8 +129,6 @@ a h2:hover {
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
-	background: url("../images/white-hall.webp") no-repeat center center;
-	background-size: cover;
 	color: #21113f;
 	margin-top: 40px;
 	border-radius: 5px;
@@ -220,10 +221,6 @@ aside a:hover {
 form {
 	padding-left: 30px;
 	padding-top: 30px;
-	/* Image gives heavenly hallway vibe */
-	background: url("../images/white-hall.webp") no-repeat center center;
-	background-size: cover;
-	/* Darkened the text color so it stands out against background */
 	color: #140a27;
 	margin-top: 20px;
 	margin-bottom: 30px;
