@@ -90,37 +90,22 @@ a #no-barrier {
 	padding: 50px;
 }
 
-/* Applies to the other h2 heading on the home page */
-a h2:hover {
-	text-decoration: underline;
-}
 
 #no-barrier {
 	background: url("../images/compact-powder.webp") no-repeat center center;
 	background-color: #c4acbe;
 	background-size: cover;
-	opacity: 0.9;
+	opacity: 0.3;
 	height: 500px;
 	width: 75%;
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
-
-	/* Added an animation zoom effect when the page loads so it looks like the hand with the compact is coming toward the screen*/
-	animation-name: approach-screen;
-	animation-duration: 5s;
-	animation-fill-mode: both;
 }
 
-/* To configure the zoom value */
-@keyframes approach-screen {
-	from {
-		transform: scale(0.7)
-	}
-
-	to {
-		transform: scale(1)
-	}
+a #no-barrier:hover {
+	opacity: 1;
+	transition: opacity 5s;
 }
 
 /* Subscription section, goal is to draw the users to the subscription page */
@@ -128,7 +113,7 @@ a h2:hover {
 	text-align: center;
 	color: #140a27;
 	padding-top: 5px;
-	background-color: rgba(132, 122, 149, 0.4);
+	background-color: rgba(151, 142, 167, 0.4);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
