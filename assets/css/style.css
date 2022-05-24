@@ -10,12 +10,9 @@
 
 /* Header styling */
 header {
-	background: url("../images/sky-with-clouds.webp") no-repeat center center;
-	background-color: rgb(214, 230, 244);
+	background-color: rgba(132, 122, 149, 0.4);
 	height: 12rem;
 	width: 100%;
-	background-position: center;
-	background-size: cover;
 }
 
 body {
@@ -129,15 +126,17 @@ a h2:hover {
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
-	color: #21113f;
-	margin-top: 40px;
-	border-radius: 5px;
+	color: #140a27;
 	padding-top: 5px;
+	background-color: rgba(132, 122, 149, 0.4);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 50%;
 }
 
 #subscribe ul {
 	list-style-type: none;
-	width: 100%;
 }
 
 #subscribe li {
