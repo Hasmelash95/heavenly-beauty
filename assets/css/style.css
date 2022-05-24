@@ -80,6 +80,7 @@ div #quote {
 #quote {
 	text-align: center;
 	color: #21113f;
+	font-style: italic;
 }
 
 /* Hero image */
@@ -130,6 +131,7 @@ a h2:hover {
 	color: #21113f;
 	margin-top: 40px;
 	border-radius: 5px;
+	padding-top: 5px;
 }
 
 #subscribe ul {
@@ -286,7 +288,7 @@ button {
 	width: 30%;
 	height: 3rem;
 	font-size: 1.5rem;
-	font-family: "Cantarell", Helvetica, sans-serif;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 	border: 2px ridge #140a27;
 	color: #21113f;
 	background-color: rgba(233, 230, 235, 0.5);
@@ -406,6 +408,10 @@ footer {
 		height: 1.5rem;
 	}
 
+	div .checkbox {
+		width: 40%;
+	}
+
 	button {
 		width: 40%;
 	}
@@ -456,6 +462,10 @@ footer {
 
 	#email {
 		width: 15rem;
+	}
+
+	div .checkbox {
+		width: 50%;
 	}
 
 	button {
