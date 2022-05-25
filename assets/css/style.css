@@ -100,11 +100,6 @@ a #no-barrier {
 	margin-right: auto;
 }
 
-/* Animation  */
-#no-barrier:hover {
-	opacity: 1;
-	transition: opacity 3s;
-}
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
@@ -186,12 +181,6 @@ aside a:hover {
 
 #brands a:hover {
 	text-decoration: underline;
-}
-
-/* To maintain consistency with the other links */
-#brands:hover {
-	opacity: 1;
-	transition: opacity 5s;
 }
 
 form {
@@ -306,8 +295,21 @@ footer {
 
 /* Media queries */
 
-/* Medium screens 1000px and down */
-@media screen and (max-width: 1000px) {
+/* Animation effect */
+@media screen and (min-width: 1100px) {
+	#no-barrier:hover {
+		opacity: 1;
+		transition: opacity 3s;
+	}
+
+	#brands:hover {
+		opacity: 1;
+		transition: opacity 5s;
+	}
+}
+
+/* Medium screens below 1100px */
+@media screen and (max-width: 1099px) {
 
 	body {
 		font-size: 1.25rem;
