@@ -170,24 +170,28 @@ aside a:hover {
 }
 
 #brands {
-	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	background: url("../images/purple-lipstick.webp");
 	background-size: cover;
 	opacity: 0.9;
 	width: 75%;
-	height: 30rem;
+	height: 40rem;
 	display: block;
+}
+
+#brands h2 {
+	font-size: 2rem;
 }
 
 #brands ul {
 	list-style-type: none;
-	float: left;
+	font-size: 1.5rem;
+	margin-left: 20px;
 }
 
 #brands li {
-	padding: 1.5rem 0;
+	padding: 2rem 0;
 }
 
 #brands a {
