@@ -76,7 +76,7 @@ a {
 div #quote {
 	padding: 20px;
 	text-align: center;
-	color: #21113f;
+	color: #140a27;
 	font-style: italic;
 	margin: 30px 0;
 }
@@ -99,6 +99,7 @@ a #no-barrier {
 	margin-right: auto;
 }
 
+/* Animation fade in effect when page loads */
 #no-barrier {
 	opacity: 1;
 	animation: fadeinwards 5s;
@@ -149,9 +150,11 @@ a #no-barrier {
 }
 
 aside {
-	margin: 30px;
-    padding: 10px 30px;
+	max-width: 600px;
+	margin: 60px auto;
+    padding: 30px;
 	letter-spacing: 0.05rem;
+	background-color: rgba(186, 177, 200, 0.7);
 }
 
 aside p {
