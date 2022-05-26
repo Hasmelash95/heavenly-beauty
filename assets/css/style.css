@@ -5,21 +5,24 @@
 	border: none;
 }
 
+body {
+	max-width: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-weight: 200;
+	color: #140a27;
+	font-size: 1.15rem;
+	background: url("../images/white-hall.webp") no-repeat center center;
+	background-color: #fff;
+	background-size: cover;
+}
+
 /* Header styling */
 header {
 	background-color: rgba(132, 122, 149, 0.4);
 	height: 12rem;
 	width: 100%;
-}
-
-body {
-	font-family: "Verdana", Geneva, Tahoma, sans-serif;
-	font-weight: 200;
-	color: #140a27;
-	font-size: 1.5rem;
-	background: url("../images/white-hall.webp") no-repeat center center;
-	background-color: #fff;
-	background-size: cover;
 }
 
 #heavenly {
@@ -494,49 +497,3 @@ footer {
 	}
 }
 
-/* For very large screens 2300px and up */
-@media screen and (min-width: 2300px) {
-	#no-barrier {
-		height: 850px;
-	}
-
-	#brands {
-		height: 50rem;
-	}
-}
-
-/* For screens 3000px and up */
-@media screen and (min-width: 3000px) {
-	body {
-		font-size: 2rem;
-	}
-
-	#no-barrier {
-		height: 1000px
-	}
-}
-
-/* For screens 3500px and up */
-@media screen and (min-width: 3500px) {
-	#no-barrier {
-		height: 1250px;
-	}
-}
-
-/* For screens 4000px and up */
-@media screen and (min-width: 4000px) {
-	#no-barrier {
-		height: 1500px;
-	}
-
-	#brands {
-		height: 75rem;
-	}
-}
-
-/* For screens 5000px and up */
-@media screen and (min-width: 5000px) {
-	#no-barrier {
-		height: 1750px;
-	}
-}
