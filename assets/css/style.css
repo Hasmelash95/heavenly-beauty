@@ -99,19 +99,6 @@ a #no-barrier {
 	padding: 50px;
 }
 
-/* Animation fade in effect when page loads */
-#no-barrier {
-	opacity: 1;
-	animation: fadeinwards 5s;
-}
-
-@keyframes fadeinwards {
-	from { opacity: 0.5; }
-	to {
-		opacity: 1;
-	}
-}
-
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
