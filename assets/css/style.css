@@ -102,7 +102,7 @@ a #no-barrier {
 /* Animation fade in effect when page loads */
 #no-barrier {
 	opacity: 1;
-	animation: fadeinwards 7s;
+	animation: fadeinwards 6s;
 }
 
 @keyframes fadeinwards {
@@ -333,13 +333,27 @@ footer {
 	#nav li {
 		font-size: 1.25rem;
 	}
+
+	#brands {
+		width: 100%;
+		height: 40rem;
+	}
 }
 
 /* For media screens 700px and down */
 @media screen and (max-width: 700px) {
 
 	#brands {
-		width: 500px;
+		height: 25rem;
+	} 
+
+	#brands h2 {
+		font-size: 1.5rem;
+	}
+
+	#brands li {
+		font-size: 1rem;
+		padding: 1.5rem 0;
 	}
 
 	div .checkboxes {
@@ -385,8 +399,13 @@ footer {
 		padding-left: 5px;
 	}
 
-	#brands {
-		width: 100%;
+	#brands h2 {
+		font-size: 2rem;
+	}
+
+	#brands li {
+		font-size: 1rem;
+		padding: 1rem 0;
 	}
 
 	form {
@@ -430,11 +449,18 @@ footer {
 	.tips {
 		margin-top: 50px;
 	}
- 
-    #brands {
-		margin-left: 0;
-		height: 25rem;
-	} 
+
+	#brands {
+		height: 20rem;
+	}
+
+	#brands h2 {
+		font-size: 1.2rem;
+	}
+
+	#brands li {
+		font-size: 0.8rem;
+	}
 
 	#social-media i {
 		padding: 30px;
@@ -467,10 +493,6 @@ footer {
 @media screen and (max-width: 380px) {
 	#no-barrier {
 		width: 200px;
-	}
-
-	#brands {
-		width: 100%;
 	}
 }
 
