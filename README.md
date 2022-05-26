@@ -2,9 +2,9 @@
 
 ## Heavenly Beauty 
 
-A website for those looking for cost effective beauty tips and tricks, as well as a subscribe and pay service that sends customers personalised beauty regimines monthly for only 3.99 (GBP). An algorithm uses the information collected from users who fill out a form to ensure the beauty regimine is well suited to the client. 
+A website for those looking for cost effective beauty tips and tricks, as well as a subscribe and pay service that sends customers personalised beauty regimines monthly for only 3.99 (GBP). An algorithm uses the information collected from users who fill out a form to ensure the beauty regimen is well suited to the client. 
 
-Business goals are to become a trusted source for clients looking for affordable beauty regimines and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
+Business goals are to become a trusted source for clients looking for affordable beauty regimen and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
 
 ![Screenshot 2022-05-26 at 22 47 03](https://user-images.githubusercontent.com/103432143/170585624-75d7c1f6-3aef-40a6-b909-cde4d9b39ee7.png)
 
@@ -18,15 +18,15 @@ Business goals are to become a trusted source for clients looking for affordable
 
 2. I've been searching the web in the hopes of finding a source that can redirect me to the cheaper beauty brands available. 
 
-3. I want to find a beauty regimine that is tailor suited to me, my skin type, my means and my tastes. 
+3. I want to find a beauty regimen that is tailor suited to me, my skin type, my means and my tastes. 
 
-4. I appreciate that this website gives specialised beauty regimine but would like a bit more incentive to subscribe to this beauty site as opposed to others.
+4. I appreciate that this website gives specialised beauty regimen but would like a bit more incentive to subscribe to this beauty site as opposed to others.
 
 5. I would like to find a site with easy navigation and accessibility. 
 
 #### Why Heavenly Beauty?
 
-Heavenly Beauty will send emails to subscribers with special offers and vouchers. For only 3.99 (GBP) a month, customers will receive monthly beauty regimines tailor suited to them, created with the help of an algorithm that uses information from the form. There will also be a chance to win a free makeover from an expert beauticians. 
+Heavenly Beauty will send emails to subscribers with special offers and vouchers. For only 3.99 (GBP) a month, customers will receive monthly beauty regimens tailor suited to them, created with the help of an algorithm that uses information from the form. There will also be a chance to win a free makeover from an expert beauticians. 
 
 Easy navigation between the three pages in the website. Homepage provides links to the different sections of the site in addition to the navigation bar. The website is also friendly to those with impaired vision. 
 
@@ -38,7 +38,7 @@ Two articles in the second page to avoid overload, with images for decoration. E
 
 Aria-labels for each of the unlabelled links to allow accessibility. 
 
-Links to three social media platforms so users have multiple ways to contact Heavenly Beauty as well as learn more about us. 
+Links to three social media platforms so users have multiple ways to contact Heavenly Beauty as well as learn more about them. 
 
 Form with multiple sections in subscription page to ensure as much information can be taken from the user as possible without overwhelming them.
 
