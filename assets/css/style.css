@@ -291,20 +291,23 @@ footer {
 	width: 100%;
 	background-color: rgb(64, 49, 93, 0.4);
 	margin-top: 30px;
+	text-align: center;
 }
 
-/* For the social media icons */
+/* For the social media icons, code help from Brian Macharia*/
+#social-media {
+	height: 100px;
+	width: fit-content;
+	margin: 20px auto;
+}
+
 #social-media i {
-	font-size: 2rem;
-	float: left;
-	padding: 50px;
+	padding: 30px 50px;
+    font-size: 2rem;
 }
 
 #copyright {
-	float: left;
-	position: absolute;
-	margin-left: 0;
-	margin-bottom: 0;
+	margin: 10px auto;
 }
 
 /* Media queries */
