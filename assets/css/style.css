@@ -37,6 +37,7 @@ h1 {
 	font-weight: 530;
 }
 
+/* General styling for other headers in the site */
 h2,
 h3 {
 	font-family: "Georgia", serif;
@@ -150,6 +151,7 @@ a #no-barrier {
 	padding: 1rem;
 }
 
+/* Given similar styling to the tips section but without lists */
 aside {
 	max-width: 600px;
 	margin: 60px auto;
@@ -162,14 +164,16 @@ aside p {
 	padding-top: 10px;
 }
 
+/* So the link stands out from the rest of text */
 aside a {
-	color: #40256d;
+	color: rgb(97, 11, 118);
 }
 
 aside a:hover {
 	text-decoration: underline;
 }
 
+/* Recommended brands */
 #brands {
 	margin-left: auto;
 	margin-right: auto;
@@ -203,6 +207,7 @@ aside a:hover {
 	text-decoration: underline;
 }
 
+/* Subscription page with form */
 form {
 	padding-left: 30px;
 	padding-top: 30px;
@@ -218,6 +223,7 @@ option {
 	display: block;
 }
 
+/* First name and last name */
 .name {
 	border: 2px ridge #140a27;
 	width: 15rem;
@@ -247,6 +253,7 @@ option {
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
+/* For the drop down menus */
 select {
 	height: 2rem;
 	width: 15rem;
@@ -276,6 +283,7 @@ div .checkboxes {
 	background-color: rgba(233, 230, 235, 0.5)
 }
 
+/* Subscribe button */
 button {
 	width: 40%;
 	height: 3rem;
@@ -291,6 +299,7 @@ button:hover {
 	color: rgb(214, 230, 244);
 }
 
+/* Fieldset labels */
 legend {
 	padding-bottom: 20px;
 	text-decoration: underline;
@@ -509,11 +518,11 @@ footer {
 @media screen and (min-width: 1600px) {
 
 	body {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 
 	h1 {
-		font-size: 4.5rem;
+		font-size: 4.25rem;
 	}
 
 	#no-barrier {
@@ -521,7 +530,7 @@ footer {
 	}
 
 	#brands {
-		height: 50rem;
+		height: 50rem; 
 	}
 }
 
