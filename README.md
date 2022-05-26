@@ -6,6 +6,8 @@ A website for those looking for cost effective beauty tips and tricks, as well a
 
 Business goals are to become a trusted source for clients looking for affordable beauty regimines and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
 
+![Screenshot 2022-05-26 at 22 47 03](https://user-images.githubusercontent.com/103432143/170585624-75d7c1f6-3aef-40a6-b909-cde4d9b39ee7.png)
+
 ## User Experience (UX)
 
 ### Strategy
@@ -24,7 +26,7 @@ Business goals are to become a trusted source for clients looking for affordable
 
 #### Why Heavenly Beauty?
 
-Heavenly Beauty will send emails to subscribers with special offers and vouchers. For only 3.99 (GBP) a month, customers will receive monthly beauty regimines tailor suited to them, created with the help of an algorithm that uses information from the form. There will also be a chance to win a free makeover from one of our expert beauticians. 
+Heavenly Beauty will send emails to subscribers with special offers and vouchers. For only 3.99 (GBP) a month, customers will receive monthly beauty regimines tailor suited to them, created with the help of an algorithm that uses information from the form. There will also be a chance to win a free makeover from an expert beauticians. 
 
 Easy navigation between the three pages in the website. Homepage provides links to the different sections of the site in addition to the navigation bar. The website is also friendly to those with impaired vision. 
 
