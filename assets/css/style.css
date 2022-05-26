@@ -54,6 +54,7 @@ nav {
 	list-style-type: none;
 	padding: 10px;
 	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 /* So links default to underlining unless I specify it */
@@ -374,7 +375,6 @@ footer {
 	}
 
 	nav {
-		float: left;
 		padding: 0;
 	}
 
@@ -429,12 +429,12 @@ footer {
 		font-size: 0.75rem;
 	}
 
-	h1 {
-		font-size: 3rem;
+	#nav li {
+	    font-size: 0.75rem;
 	}
 
-	#nav li {
-		font-size: 0.75rem;
+	h1 {
+		font-size: 3rem;
 	}
 
 	#no-barrier {
@@ -491,6 +491,11 @@ footer {
 
 /* For tiny screens 380px and down */
 @media screen and (max-width: 380px) {
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
 	#no-barrier {
 		width: 200px;
 	}
