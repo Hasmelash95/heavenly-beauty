@@ -92,7 +92,6 @@ a #no-barrier {
 	background: url("../images/compact-powder.webp") no-repeat center center;
 	background-color: rgba(151, 142, 167, 0.3);
 	background-size: cover;
-	opacity: 0.3;
 	height: 500px;
 	width: 75%;
 	padding: 10px;
@@ -100,12 +99,24 @@ a #no-barrier {
 	margin-right: auto;
 }
 
+#no-barrier {
+	opacity: 1;
+	animation: fadeinwards 5s;
+}
+
+@keyframes fadeinwards {
+	from { opacity: 0.5; }
+	to {
+		opacity: 1;
+	}
+}
+
 /* Subscription section, goal is to draw the users to the subscription page */
 #subscribe {
 	text-align: center;
 	color: #140a27;
 	padding-top: 5px;
-	background-color: rgba(151, 142, 167, 0.3);
+	background-color: rgba(151, 142, 167, 0.6);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
@@ -124,7 +135,7 @@ a #no-barrier {
 .tips {
 	margin: 30px;
 	padding: 30px 30px;
-	background-color: rgba(151, 142, 167, 0.3);
+	background-color: rgba(151, 142, 167, 0.6);
 }
 
 .tips ul {
@@ -160,7 +171,7 @@ aside a:hover {
 	margin-right: auto;
 	background: url("../images/purple-lipstick.webp");
 	background-size: cover;
-	opacity: 0.5;
+	opacity: 0.9;
 	width: 75%;
 	height: 30rem;
 	display: block;
@@ -295,37 +306,13 @@ footer {
 
 /* Media queries */
 
-/* Animation effect */
-@media screen and (min-width: 1100px) {
-	#no-barrier:hover {
-		opacity: 1;
-		transition: opacity 3s;
-	}
-
-	#brands:hover {
-		opacity: 1;
-		transition: opacity 5s;
-	}
-}
-
-/* Medium screens below 1100px */
-@media screen and (max-width: 1099px) {
+/* Medium screens 1000px and below */
+@media screen and (max-width: 1000px) {
 
 	body {
 		font-size: 1.25rem;
 	}
 
-	#no-barrier {
-		opacity: 0.5;
-		animation: fadeinwards 5s;
-	}
-
-	@keyframes fadeinwards {
-		from { opacity: 0.5; }
-		to {
-			opacity: 1;
-		}
-	}
 
 	#brands {
 		opacity: 0.7;
