@@ -187,7 +187,7 @@ aside a:hover {
 #brands ul {
 	list-style-type: none;
 	font-size: 1.5rem;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 #brands li {
@@ -224,9 +224,9 @@ div input {
 .name {
 	border: 2px ridge #140a27;
 	width: 15rem;
-	height: 2rem;
+	height: 1.5rem;
 	padding: 5px 20px;
-	font-size: 1.5rem;
+	font-size: 1.15rem;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif, sans-serif;
 }
 
@@ -234,26 +234,26 @@ div input {
 #age {
 	border: 2px ridge #140a27;
 	width: 7rem;
-	height: 2rem;
+	height: 1.5rem;
 	padding: 5px 10px;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.15rem;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 #email {
 	border: 2px ridge #140a27;
 	width: 20rem;
-	height: 2rem;
+	height: 1.5rem;
 	padding: 5px 20px;
-	font-size: 1.5rem;
+	font-size: 1.15rem;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 select {
 	height: 2rem;
 	width: 15rem;
-	font-size: 1.5rem;
+	font-size: 1.15rem;
 	color: #140a27;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
@@ -273,7 +273,7 @@ div .checkbox {
 button {
 	width: 30%;
 	height: 3rem;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 	border: 2px ridge #140a27;
 	color: #21113f;
@@ -480,6 +480,10 @@ footer {
 
 	#no-barrier {
 		height: 700px;
+	}
+
+	#brands {
+		height: 50rem;
 	}
 }
 
