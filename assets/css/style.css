@@ -9,10 +9,12 @@ body {
 	max-width: 2000px;
 	margin-left: auto;
 	margin-right: auto;
+
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 	font-weight: 200;
 	color: #140a27;
 	font-size: 1.15rem;
+
 	background: url("../images/white-hall.webp") no-repeat center center;
 	background-color: #fff;
 	background-size: cover;
@@ -76,11 +78,11 @@ a {
 
 /* Inspirational quote to boost user's mood */
 div #quote {
+	margin: 30px 0;
 	padding: 20px;
 	text-align: center;
 	color: #140a27;
 	font-style: italic;
-	margin: 30px 0;
 }
 
 /* Hero image */
@@ -88,6 +90,7 @@ div #quote {
 	background: url("../images/compact-powder.webp") no-repeat center center;
 	background-color: rgba(186, 177, 200, 0.7);
 	background-size: cover;
+
 	height: 500px;
 	width: 75%;
 	padding: 10px;
@@ -120,9 +123,7 @@ a #no-barrier {
 	color: #140a27;
 	padding-top: 5px;
 	background-color: rgba(186, 177, 200, 0.7);
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
+	margin: 60px auto 0;
 	width: 50%;
 }
 
@@ -177,12 +178,13 @@ aside a:hover {
 #brands {
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
+
 	background: url("../images/purple-lipstick.webp");
 	background-size: cover;
 	opacity: 0.9;
 	width: 75%;
 	height: 40rem;
-	display: block;
 }
 
 #brands h2 {
@@ -211,9 +213,9 @@ aside a:hover {
 form {
 	padding-left: 30px;
 	padding-top: 30px;
-	color: #140a27;
 	margin-top: 20px;
 	margin-bottom: 30px;
+    color: #140a27;
 }
 
 /* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/
@@ -230,7 +232,7 @@ option {
 	height: 1.5rem;
 	padding: 5px 20px;
 	font-size: 1.15rem;
-	font-family: "Verdana", Geneva, Tahoma, sans-serif, sans-serif;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
@@ -423,7 +425,6 @@ footer {
 
 	form {
 		padding-left: 5px;
-		margin-top: 3rem;
 	}
 
 	select,
@@ -432,6 +433,10 @@ footer {
 	#email {
 		font-size: 1rem;
 		height: 1.5rem;
+	}
+
+	legend {
+		font-size: 1rem;
 	}
 }
 
