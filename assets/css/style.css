@@ -262,7 +262,12 @@ div .checkbox-label {
 	padding-bottom: 20px;
 }
 
-div .checkbox {
+.checkbox input,
+.checkbox label {
+	display: inline;
+}
+
+div .checkboxes {
 	border: 3px ridge #140a27;
 	padding-left: 10px;
 	padding-top: 10px;
