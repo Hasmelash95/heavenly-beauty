@@ -149,24 +149,24 @@ Natural, Dramatic, Glamorous, Sweet, Quirky
 
 Multi-select checkboxes allow the user to select as many options (or no options) as they'd like. 
 
-![Screenshot 2022-05-27 at 13 32 05](https://user-images.githubusercontent.com/103432143/170699829-9f58be98-87cd-4d3b-9c51-0e4320569bb7.png)
-![Screenshot 2022-05-27 at 13 39 15](https://user-images.githubusercontent.com/103432143/170700884-ed28c5b2-30fb-4b68-9397-dcfc8328e997.png)
+![Checkbox](https://user-images.githubusercontent.com/103432143/170699829-9f58be98-87cd-4d3b-9c51-0e4320569bb7.png)
+![Checkbox selected](https://user-images.githubusercontent.com/103432143/170786673-717fd9c4-fc54-49d2-bcfa-71f079acfd76.png)
 
 The submit button at the bottom is large enough that it cannot be missed. When the mouse hovers over the button, the colors reverse. Cloud icons from font awesome are added to the text for style.
 
-![Screenshot 2022-05-27 at 13 34 54](https://user-images.githubusercontent.com/103432143/170700197-61ffe16a-caf1-4a12-9726-0103760d5904.png)
-![Screenshot 2022-05-27 at 13 44 25](https://user-images.githubusercontent.com/103432143/170701640-9e69831e-9989-444f-a1ca-6f0d59d3e72c.png)
+![Submit](https://user-images.githubusercontent.com/103432143/170700197-61ffe16a-caf1-4a12-9726-0103760d5904.png)
+![Submit hover](https://user-images.githubusercontent.com/103432143/170701640-9e69831e-9989-444f-a1ca-6f0d59d3e72c.png)
 
 Attempting to submit without filling in the required fields, gets an error message.
 
-![Screenshot 2022-05-27 at 13 49 23](https://user-images.githubusercontent.com/103432143/170702482-1f08082d-54ce-421a-9eb1-53ef929fc3f0.png)
+![Required warning](https://user-images.githubusercontent.com/103432143/170702482-1f08082d-54ce-421a-9eb1-53ef929fc3f0.png)
 
 ### Footer
 
 Social media icons (fron Font Awesome) are centered and when clicked, take the users to the Heavenly Beauty social media websites (Facebook, Instagram, Discord) in a new tab with aria labels for those who are visually impared. 
 Copyright is just below the social media links.
 
-![Screenshot 2022-05-27 at 13 51 01](https://user-images.githubusercontent.com/103432143/170702630-8acb37e1-e4fc-489e-94b6-954f83a8a3a8.png)
+![Footer](https://user-images.githubusercontent.com/103432143/170702630-8acb37e1-e4fc-489e-94b6-954f83a8a3a8.png)
 
 ## Testing 
 
