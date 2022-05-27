@@ -11,7 +11,7 @@ body {
 	margin-right: auto;
 
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 	color: #140a27;
 	font-size: 1.15rem;
 
@@ -340,7 +340,6 @@ footer {
 
 	body {
 		font-size: 1rem;
-		color:#140a27;
 	}
 
 	#nav li {
@@ -359,10 +358,6 @@ footer {
 
 /* For media screens 700px and down */
 @media screen and (max-width: 700px) {
-
-	body {
-		color:#140a27;
-	}
 
 	#brands {
 		height: 25rem;
@@ -389,10 +384,6 @@ footer {
 
 /* For smaller screens 600px and down */
 @media screen and (max-width: 600px) {
-
-	body {
-		color:#140a27;
-	}
 
 	h1 {
 		font-size: 3.5rem;
@@ -451,10 +442,6 @@ footer {
 
 /* For very small screens 480px and down */
 @media screen and (max-width: 480px) {
-
-	body {
-		color:#140a27;
-	}
 
 	body {
 		font-size: 0.75rem;
@@ -522,10 +509,6 @@ footer {
 
 /* For tiny screens 380px and down */
 @media screen and (max-width: 380px) {
-
-	body {
-		color:#140a27;
-	}
 
 	h1 {
 		font-size: 2.5rem;
