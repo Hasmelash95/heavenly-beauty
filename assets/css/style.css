@@ -436,7 +436,7 @@ footer {
 	}
 
 	legend {
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 }
 
@@ -504,6 +504,10 @@ footer {
 	button {
 		width: 60%;
 	}
+
+	legend {
+		font-size: 1rem;
+	}
 }
 
 
@@ -536,5 +540,9 @@ footer {
 
 	#brands {
 		height: 50rem; 
+	}
+
+	legend {
+		font-size: 1.5rem;
 	}
 }
