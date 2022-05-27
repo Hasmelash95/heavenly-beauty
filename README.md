@@ -2,9 +2,9 @@
 
 ## Heavenly Beauty 
 
-A website for those looking for cost effective beauty tips and tricks, as well as a subscribe and pay service that sends customers personalised beauty regimines monthly for only 3.99 (GBP). An algorithm uses the information collected from users who fill out a form to ensure the beauty regimen is well suited to the client. 
+A website for those looking for cost effective beauty tips and tricks, as well as a subscribe and pay service that sends customers personalised beauty regimens monthly for only 3.99 (GBP). An algorithm uses the information collected from users who fill out a form to ensure the beauty regimen is well suited to the client. 
 
-Business goals are to become a trusted source for clients looking for affordable beauty regimen and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
+Business goals are to become a trusted source for clients looking for affordable beauty regimens and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
 
 ![Screenshot 2022-05-26 at 22 47 03](https://user-images.githubusercontent.com/103432143/170585624-75d7c1f6-3aef-40a6-b909-cde4d9b39ee7.png)
 
@@ -74,12 +74,44 @@ A third page with a form to fill out that provides information to the algorithm 
 
 ### Surface
 
-The website has a dark purple foreground `#140A27` and backgrounds both white and `rgb(186, 177, 200)`. Chosen for the [good contrast ratio](https://webaim.org/resources/contrastchecker/?fcolor=140A27&bcolor=BAB1C8).
+The website has a dark purple foreground `#140A27` and backgrounds both white and `rgb(186, 177, 200)`. Chosen for the [good contrast ratio](https://webaim.org/resources/contrastchecker/?fcolor=140A27&bcolor=BAB1C8) (9.26:1).
 
 Headings used Georgia (serif) as a font while the rest of the text used Verdana (sans-serif) with Geneva and Tahoma as back ups.
 
 Animation effects on the hero image draws the attention of the user as soon as the page loads. A white hallway was used as the background image for flair, yet remaining subtle enough to not draw attention away from the contents of the website.
 
 Font awesome icons were added using:
+
 ```<script src="https://kit.fontawesome.com/86de956f5a.js" crossorigin="anonymous"></script>```
+## Features
+
+### Header and Navigation
+
+A translucent header background color with bold dark text centered. The navigation buttons with links to the three different pages in the site are underneath the header with a bold style to stand out in the page. The menu text is underlined whenever the mouse hovers over the link and the active page (the page the user is currently on) is indicated by an underline that remains.
+
+![Screenshot 2022-05-27 at 12 33 55](https://user-images.githubusercontent.com/103432143/170693221-075041f4-213c-4dfe-a0a7-51372e9d55cb.png)
+
+![Screenshot 2022-05-27 at 12 46 42](https://user-images.githubusercontent.com/103432143/170693351-5792daf2-60c6-406e-84ea-3a472c9223c9.png)
+
+![Screenshot 2022-05-27 at 12 46 54](https://user-images.githubusercontent.com/103432143/170693366-74449a39-21fe-4762-8bf0-8cf2e982509a.png)
+
+### Home Page
+
+### Quote
+
+An inspirational quote by Dante Alighieri on the main page: "Beauty awakens the soul to act." Written in italics to differentiate it from the rest of the test on the site.
+
+### Call to Action
+
+A hero image of a hand holding a compact mirror with powder fades in when the screen loads with a call to action, encouraging the user to click on the link (within the image) to check out the beauty tips and tricks on the Beauty Hacks page. A background color matching the header was used in case the image never loads.
+
+![Allow No Barrier](https://user-images.githubusercontent.com/103432143/170694088-ba9ce095-2a35-4f0f-8b1d-e77a0ea0eb44.png)
+
+A box with a translucent background (like the header) with another call to action, given the user reasons why they should consider subscribing. An encouragement to click the link (within the box) that will take them to the Subscription page. Cloud icons taken fromt Font Awesome are used in lieu of bullet points.
+
+![Why Subscribe](https://user-images.githubusercontent.com/103432143/170694596-bcb26a73-9d67-44b1-871c-a23e7db7cecf.png)
+
+
+
+
 
