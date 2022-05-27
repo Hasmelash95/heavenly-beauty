@@ -129,9 +129,7 @@ The Subscribe Now page can be accessed either through the box in the Home Page o
 
 ![Personal Info](https://user-images.githubusercontent.com/103432143/170785885-e18069e9-b7e5-47d6-994f-cdb3ac322968.png)
 
-Gender uses a drop down menu (as it takes up less space than radio labels), which gives a beautiful view of the calming background image. 
-
-![Additional Info](https://user-images.githubusercontent.com/103432143/170785987-7703b82a-b8aa-4e9f-b69c-4d25e1d97858.png)
+Gender uses a drop down menu (as it takes up less space than radio labels), with options Male, Female and Other, which gives a beautiful view of the calming background image. 
 
 The second fieldset asks additional questions related to the users routine, tastes and means - as well as interest in certain brands. The information taken from the client and stored in the database will be analysed by an algorithm which will produce the best suited regimens for the client in question. In addition, the special offers will be refined to their tastes, especially regarding the brands that they're interested in. Drop down menus are used instead of radio labels to take up less space on the page.
 
@@ -147,7 +145,7 @@ Once a Week, Twice a Week, Several Days a Week, Every Day
 Options for What's your preferred style?:
 Natural, Dramatic, Glamorous, Sweet, Quirky
 
-![Screenshot 2022-05-27 at 13 31 17](https://user-images.githubusercontent.com/103432143/170699662-0d8e281b-330d-4c67-9274-6779a15dd746.png)
+![Additional Info](https://user-images.githubusercontent.com/103432143/170785987-7703b82a-b8aa-4e9f-b69c-4d25e1d97858.png)
 
 Multi-select checkboxes allow the user to select as many options (or no options) as they'd like. 
 
