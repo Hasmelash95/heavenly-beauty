@@ -127,11 +127,11 @@ The background with the purple lipstick provides added flair and remains in keep
 
 The Subscribe Now page can be accessed either through the box in the Home Page or the navigation button. It takes the user to a page with a form to fill out. The text inputs are marked as required, so users cannot leave them blank. The personal information fieldset asks typical personal questions: Name, Age, Gender, Email. The latter through which Heavenly Beauty will contact the client. 
 
-![Personal Details](https://user-images.githubusercontent.com/103432143/170697988-d4c5642d-dc83-40db-a2fb-f804f9df8d7c.png)
+![Personal Info](https://user-images.githubusercontent.com/103432143/170785885-e18069e9-b7e5-47d6-994f-cdb3ac322968.png)
 
 Gender uses a drop down menu (as it takes up less space than radio labels), which gives a beautiful view of the calming background image. 
 
-![Screenshot 2022-05-27 at 13 22 48](https://user-images.githubusercontent.com/103432143/170698480-e6ea9283-b830-4d1e-a5d9-34f62f532cdf.png)
+![Additional Info](https://user-images.githubusercontent.com/103432143/170785987-7703b82a-b8aa-4e9f-b69c-4d25e1d97858.png)
 
 The second fieldset asks additional questions related to the users routine, tastes and means - as well as interest in certain brands. The information taken from the client and stored in the database will be analysed by an algorithm which will produce the best suited regimens for the client in question. In addition, the special offers will be refined to their tastes, especially regarding the brands that they're interested in. Drop down menus are used instead of radio labels to take up less space on the page.
 
