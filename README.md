@@ -170,3 +170,23 @@ Copyright is just below the social media links.
 
 ![Screenshot 2022-05-27 at 13 51 01](https://user-images.githubusercontent.com/103432143/170702630-8acb37e1-e4fc-489e-94b6-954f83a8a3a8.png)
 
+## Testing 
+
+### Validation
+
+HTML code was run through [The W3C Markup Validation Service](https://validator.w3.org/). With all three pages passing with no error or warning.
+
+![HTML Validation 1](https://user-images.githubusercontent.com/103432143/170784438-947aa566-3d03-44f9-a6cb-6680bfea896e.png)
+
+![HTML Validation 2](https://user-images.githubusercontent.com/103432143/170784466-4496acda-6c07-4468-89fa-fdf37508e156.png)
+
+![HTML Validation 3](https://user-images.githubusercontent.com/103432143/170784485-64458ab3-81fd-4742-9e69-d0420e2d778f.png)
+
+CSS code was run through [Jigsaw](https://jigsaw.w3.org/css-validator/), passing with no error or warning. 
+
+![CSS Validation](https://user-images.githubusercontent.com/103432143/170783014-56f8a198-7fc0-496b-9d87-7de9e41d1b9d.png)
+
+
+
+
+
