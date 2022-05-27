@@ -78,7 +78,7 @@ The website has a dark purple foreground `#140A27` and backgrounds both white an
 
 Headings used Georgia (serif) as a font while the rest of the text used Verdana (sans-serif) with Geneva and Tahoma as back ups.
 
-Animation effects on the hero image draws the attention of the user as soon as the page loads. A white hallway was used as the background image for flair, yet remaining subtle enough to not draw attention away from the contents of the website.
+Animation effects on the hero image draws the attention of the user as soon as the page loads. A white hallway was used as the background image for flair, and to evoke a heavenly hallway, yet remaining subtle enough to not draw attention away from the contents of the website.
 
 Font awesome icons were added using:
 
@@ -89,11 +89,11 @@ Font awesome icons were added using:
 
 A translucent header background color with bold dark text centered. The navigation buttons with links to the three different pages in the site are underneath the header with a bold style to stand out in the page. The menu text is underlined whenever the mouse hovers over the link and the active page (the page the user is currently on) is indicated by an underline that remains.
 
-![Screenshot 2022-05-27 at 12 33 55](https://user-images.githubusercontent.com/103432143/170693221-075041f4-213c-4dfe-a0a7-51372e9d55cb.png)
+![Header and Nav - Home Page](https://user-images.githubusercontent.com/103432143/170696541-31b6ad67-3061-48c8-bd5a-b6b368038e16.png)
 
-![Screenshot 2022-05-27 at 12 46 42](https://user-images.githubusercontent.com/103432143/170693351-5792daf2-60c6-406e-84ea-3a472c9223c9.png)
+![Header and Nav - Beauty Hacks](https://user-images.githubusercontent.com/103432143/170696560-312c05a2-2296-4fdb-acb2-5451f3fd9ee3.png)
 
-![Screenshot 2022-05-27 at 12 46 54](https://user-images.githubusercontent.com/103432143/170693366-74449a39-21fe-4762-8bf0-8cf2e982509a.png)
+![Header and Nav - Subscribe Now](https://user-images.githubusercontent.com/103432143/170696590-5f344bf5-5cc0-4309-8abc-b7561f0a0021.png)
 
 ### Home Page
 
@@ -109,7 +109,19 @@ A hero image of a hand holding a compact mirror with powder fades in when the sc
 
 A box with a translucent background (like the header) with another call to action, given the user reasons why they should consider subscribing. An encouragement to click the link (within the box) that will take them to the Subscription page. Cloud icons taken fromt Font Awesome are used in lieu of bullet points.
 
-![Why Subscribe](https://user-images.githubusercontent.com/103432143/170694596-bcb26a73-9d67-44b1-871c-a23e7db7cecf.png)
+![Why Subscribe](https://user-images.githubusercontent.com/103432143/170695970-7da92ee6-1531-4b60-9ae8-946ecd2ea433.png)
+
+#### Beauty Hacks
+
+The second page, which can be accessed either navigation button or the hero image, provides articles with cost saving beauty tips and tricks in addition to links to external articles which emphasize the importance of low income shoppers to the market and external links to Recommended Brands with affordable beauty products. 
+
+![Articles](https://user-images.githubusercontent.com/103432143/170695744-ec6e644a-e17e-470b-bbb8-7230d6b8cfb9.png)
+
+![Recommended Beauty Brands](https://user-images.githubusercontent.com/103432143/170695836-994504b7-79cf-45e5-bb71-7266d59a46ad.png)
+
+The background with the purple lipstick provides added flair and remains in keeping with the color theme of the website. It's opacity is 0.9 to ensure that although it stands out against the background, some of the background image can still be glimpsed.
+
+
 
 
 
