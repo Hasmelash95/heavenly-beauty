@@ -434,7 +434,7 @@ footer {
 	#age,
 	#email {
 		font-size: 1rem;
-		height: 1.5rem;
+		height: 2rem;
 	}
 
 	legend {
@@ -488,7 +488,6 @@ footer {
 	#age,
 	#email {
 		font-size: 0.75rem;
-		height: 1rem;
 	}
 
 	#email {
