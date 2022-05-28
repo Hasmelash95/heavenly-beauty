@@ -283,24 +283,25 @@ div .checkbox-label {
 div .checkboxes {
 	border: 2px ridge #140a27;
 	padding: 10px;
-	width: 50%;
-	background-color: rgba(255, 255, 255, 0.5)
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Subscribe button */
 button {
-	width: 40%;
+	width: 250px;
 	height: 3rem;
-	font-size: 1.3rem;
+	font-size: 1.15rem;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	font-weight: bold;
 	border: 2px ridge #140a27;
-	color: #21113f;
-	background-color: rgba(233, 230, 235, 0.5);
+	color: #140a27;
+	background-color: rgba(255, 255, 255, 0.6);
 }
 
 button:hover {
-	background-color: #21113f;
-	color: rgb(214, 230, 244);
+	background-color: #140a27;
+	color: #fff;
 }
 
 /* Fieldset labels */
@@ -319,7 +320,7 @@ footer {
 	text-align: center;
 }
 
-/* For the social media icons, code help from Brian Macharia*/
+/* For the social media icons and copyright, code credit to Brian Macharia*/
 #social-media {
 	height: 100px;
 	width: fit-content;
@@ -379,7 +380,6 @@ footer {
 	}
 
 	button {
-		width: 50%;
 		font-size: 1rem;
 	}
 }
@@ -498,12 +498,12 @@ footer {
 		width: 60%;
 	}
 
-	button {
-		width: 60%;
-	}
-
 	legend {
 		font-size: 1rem;
+	}
+
+	button {
+		font-size: 0.75rem;
 	}
 }
 
