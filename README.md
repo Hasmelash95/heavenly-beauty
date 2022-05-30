@@ -125,9 +125,9 @@ The background with the purple lipstick provides added flair and remains in keep
 
 ### Subscribe Now
 
-The Subscribe Now page can be accessed either through the box in the Home Page or the navigation button. It takes the user to a page with a form to fill out. The text inputs are marked as required, so users cannot leave them blank. The personal information fieldset asks typical personal questions: Name, Age, Gender, Email. The latter through which Heavenly Beauty will contact the client. 
+The Subscribe Now page can be accessed either through the box in the Home Page or the navigation button. It takes the user to a page with a form to fill out. The text inputs are marked as required, so users cannot leave them blank. The personal details fieldset asks typical personal questions: Name, Age, Gender, Email. The latter through which Heavenly Beauty will contact the client. 
 
-![Personal Info](https://user-images.githubusercontent.com/103432143/170785885-e18069e9-b7e5-47d6-994f-cdb3ac322968.png)
+![Personal Details](https://user-images.githubusercontent.com/103432143/171049222-e564046d-9e17-4897-b74d-9bfeb853175b.png)
 
 Gender uses a drop down menu (as it takes up less space than radio labels), with options Male, Female and Other, which gives a beautiful view of the calming background image. 
 
@@ -145,21 +145,20 @@ Once a Week, Twice a Week, Several Days a Week, Every Day
 Options for What's your preferred style?:
 Natural, Dramatic, Glamorous, Sweet, Quirky
 
-![Additional Info](https://user-images.githubusercontent.com/103432143/170785987-7703b82a-b8aa-4e9f-b69c-4d25e1d97858.png)
+![Additional Info](https://user-images.githubusercontent.com/103432143/171049304-be627f84-3138-4e02-99b1-cb12d6d4954f.png)
 
 Multi-select checkboxes allow the user to select as many options (or no options) as they'd like. 
 
-![Checkbox](https://user-images.githubusercontent.com/103432143/170699829-9f58be98-87cd-4d3b-9c51-0e4320569bb7.png)
-![Checkbox selected](https://user-images.githubusercontent.com/103432143/170786673-717fd9c4-fc54-49d2-bcfa-71f079acfd76.png)
+![Checkboxes](https://user-images.githubusercontent.com/103432143/171049329-281ebe91-803d-431a-89ea-f4c82481a97c.png)
 
-The submit button at the bottom is large enough that it cannot be missed. When the mouse hovers over the button, the colors reverse. Cloud icons from font awesome are added to the text for style.
+When the mouse hovers over the submit button, the colors reverse. Cloud icons from font awesome are added to the text for style.
 
-![Submit](https://user-images.githubusercontent.com/103432143/170700197-61ffe16a-caf1-4a12-9726-0103760d5904.png)
-![Submit hover](https://user-images.githubusercontent.com/103432143/170701640-9e69831e-9989-444f-a1ca-6f0d59d3e72c.png)
+![Submit](https://user-images.githubusercontent.com/103432143/171049370-ff6d63dd-1f98-497e-a351-982ae6f38572.png)
 
 Attempting to submit without filling in the required fields, gets an error message.
 
-![Required warning](https://user-images.githubusercontent.com/103432143/170702482-1f08082d-54ce-421a-9eb1-53ef929fc3f0.png)
+![Required](https://user-images.githubusercontent.com/103432143/171049505-ded803b7-2f69-4928-bd61-a7d87e6195dd.png)
+
 
 ### Footer
 
@@ -183,6 +182,15 @@ HTML code was run through [The W3C Markup Validation Service](https://validator.
 CSS code was run through [Jigsaw](https://jigsaw.w3.org/css-validator/), passing with no error or warning. 
 
 ![CSS Validation](https://user-images.githubusercontent.com/103432143/170783014-56f8a198-7fc0-496b-9d87-7de9e41d1b9d.png)
+
+### Performance 
+
+Lighthouse tests were carried out to test website performance, accessibility, good practices and search engine optimization. The tests were carried out on each page - Home Page, Beauty Hacks and Subscribe Now. In order:
+
+![Page One](https://user-images.githubusercontent.com/103432143/171049652-f047ece6-a4c9-40b6-a672-614c50bf2536.png)
+![Page Two](https://user-images.githubusercontent.com/103432143/171049662-5787e6f0-5495-4803-953f-d2a1308a2fa1.png)
+![Page Three](https://user-images.githubusercontent.com/103432143/171049667-afbbcdd3-5d03-4f47-ac03-005dd6b5f59b.png)
+
 
 
 
