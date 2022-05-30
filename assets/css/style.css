@@ -270,8 +270,13 @@ label {
 	padding-bottom: 20px;
 }
 
+.bold-label {
+	font-weight: 600;
+}
+
 div .checkbox-label {
 	padding-bottom: 20px;
+	font-weight: 600;
 }
 
 .checkbox input,
@@ -309,6 +314,7 @@ legend {
 	padding-bottom: 20px;
 	text-decoration: underline;
 	font-size: 1.3rem;
+	font-weight: 600;
 }
 
 /* Footer section */
