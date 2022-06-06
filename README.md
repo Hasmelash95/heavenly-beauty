@@ -299,6 +299,8 @@ Photo by Oleg Magni: Purple Lipstick against White Background
 
 [Photo by Robin Schreiner](https://www.pexels.com/photo/arches-hallway-inside-building-2261166/)
 
+[Font Awesome for icons](https://fontawesome.com/icons)
+
 [HubSpot for Fade In Animation Effect](https://blog.hubspot.com/)
 
 [W3Schools for Code Help](https://www.w3schools.com/)
