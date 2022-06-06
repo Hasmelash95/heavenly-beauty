@@ -516,6 +516,10 @@ footer {
 	#no-barrier {
 		width: 200px;
 	}
+
+	div .checkboxes {
+		width: 280px;
+	}
 }
 
 /* For larger screens 1600px and up */
