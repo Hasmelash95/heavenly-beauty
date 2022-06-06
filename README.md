@@ -191,7 +191,27 @@ Lighthouse tests were carried out to test website performance, accessibility, go
 ![Page Two](https://user-images.githubusercontent.com/103432143/171049662-5787e6f0-5495-4803-953f-d2a1308a2fa1.png)
 ![Page Three](https://user-images.githubusercontent.com/103432143/171049667-afbbcdd3-5d03-4f47-ac03-005dd6b5f59b.png)
 
+### Functionality
+![Tests 1-8](https://user-images.githubusercontent.com/103432143/172149953-8cddfa50-7fb0-410e-aff1-692b5b55aae1.png)
+![Tests 9-11](https://user-images.githubusercontent.com/103432143/172149966-aa94aa35-e767-4bba-ab3e-ee522813e6a8.png)
+![Tests 12-17](https://user-images.githubusercontent.com/103432143/172149971-e800bf56-7597-40a1-9a50-8134d07300c0.png)
 
+### Browser Compatibility 
+
+Functional tests carried out on Chrome, Safari, Firefox and Microsoft Edge.
+All tests PASSED. Only difference between browsers was, when using Firefox and Safari the user is able to input letters into the age field. When they attempt to submit, however, a message pops up asking them to input a number.
+
+Website is compatible with iPhones and Samsung smart phones. 
+
+### Responsive Design
+
+Web Developer Tools were used on Google Chrome to ensure the website maintained structural integrity in different screen sizes. Viewing the website on smart phones with smaller widths confirmed the maintenance of layout. Max-width: 2000px was used to ensure that the website would stop expanding with very large screen sizes. 
+
+#### Am I Responsive? Screenshots
+
+
+
+### Testing User Stories
 
 
 
