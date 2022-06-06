@@ -230,33 +230,28 @@ option {
 }
 
 /* First name and last name */
-.name {
+input {
 	border: 2px ridge #140a27;
-	width: 15rem;
 	height: 1.5rem;
-	padding: 5px 20px;
 	font-size: 1.15rem;
 	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+}
+
+.name {
+	width: 15rem;
+	padding: 5px 20px;
 }
 
 /* I gave these elements separate ids in case I wished to give them a distinct style from the name fields */
 #age {
-	border: 2px ridge #140a27;
 	width: 7rem;
-	height: 1.5rem;
 	padding: 5px 10px;
 	text-align: center;
-	font-size: 1.15rem;
-	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 #email {
-	border: 2px ridge #140a27;
 	width: 20rem;
-	height: 1.5rem;
 	padding: 5px 20px;
-	font-size: 1.15rem;
-	font-family: "Verdana", Geneva, Tahoma, sans-serif;
 }
 
 /* For the drop down menus */
@@ -287,6 +282,7 @@ div .checkbox-label {
 .checkbox label {
 	display: inline;
 	line-height: 2.5rem;
+	height: 1rem;
 }
 
 div .checkboxes {
@@ -441,6 +437,11 @@ footer {
 	#email {
 		font-size: 1rem;
 		height: 2rem;
+	}
+
+	.checkbox input,
+    .checkbox label {
+		height: 0.75rem;
 	}
 
 	legend {
