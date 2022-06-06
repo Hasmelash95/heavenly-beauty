@@ -2,6 +2,8 @@
 
 ## Heavenly Beauty 
 
+[Check out the live website here. ](https://hasmelash95.github.io/heavenly-beauty/)
+
 A website for those looking for cost effective beauty tips and tricks, as well as a subscribe and pay service that sends customers personalised beauty regimens monthly for only 3.99 (GBP). An algorithm uses the information collected from users who fill out a form to ensure the beauty regimen is well suited to the client. 
 
 Business goals are to become a trusted source for clients looking for affordable beauty regimens and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
@@ -233,4 +235,75 @@ PASS - They will get periodic special offers and vouchers through email and the 
 5. I would like to find a site with easy navigation and accessibility.
 
 PASS - The website has a navigation bar to take the user to different pages in the site. The underline under the menu buttons ensure they know where they are in the site. This will be useful for whenever the site grows. Aria labels are used for the links, for users who are visually impaired. 
+
+## Technologies Used
+
+HTML5
+
+CSS3
+
+Git
+
+Gitpod
+
+Github
+
+Balsamiq Wireframes
+
+## Deployment 
+
+1. Using the Code Institute Github Full Template, create a repository on your github account. Name it, set to public and open repositry on gitpod. 
+2. Set up Github Pages by clicking on the Settings tab, clicking on 'Pages' under 'code and automation'. Change the branch under 'Source' from 'None' to 'Main'. After a few minutes, this should provide the link to the website hosted on Github. 
+3. Ensure the directory is in the correct location to commit the changes to the right place. 
+4. Use Git to commit changes from Gitpod by typing 'git add .' for every feature added and changes made and 'git commit -m "message here" ' on the Gitpod terminal with a clear but concise message explaining the changes made. 
+5. Type 'git push' and refresh the website (updates may take a few minutes) and the changes will appear on the deployed site. 
+
+To clone the repository: 
+1. Log on to your Github account and head to the main page of the repository you wish to clone. 
+2. Click on the 'Code' button above the list of files and choose from HTTPS, SSH or Github CLI, to copy the URL provided. 
+3. Open terminal and ensure you are in the correct location. 
+4. Type in 'git clone' and paste the URL you'd copied in step 2 and press enter. 
+
+## Acknowledgements 
+
+My mentor Brian Macharia - for giving lots of constructive feedback and offering code help to improve the website's styling. I have learned a lot from our sessions and I'm truly grateful. 
+
+Code Institute - for all of the resources provided and the walkthroughs that helped me get used to technologies. 
+
+Daniel Jones - for giving periodic advice on style choices and pointing out typos. 
+
+Alemtsehay Tekle - for giving feedback regarding subscription page from her experience in designing forms. 
+
+READMEs of Anna, Haley, Caroline and Elaine for inspiration on what sections to include on my README. 
+
+[Pexels for Images: ](https://www.pexels.com/)
+
+[Photo by Kristina Paukshtite](https://www.pexels.com/photo/person-holding-compact-powder-2417855/)
+
+Photo by Oleg Magni: Purple Lipstick against White Background
+
+[Photo by Robin Schreiner](https://www.pexels.com/photo/arches-hallway-inside-building-2261166/)
+
+[HubSpot for Fade In Animation Effect](https://blog.hubspot.com/)
+
+[W3Schools for Code Help](https://www.w3schools.com/)
+
+[For Beautifying code](https://www.freeformatter.com/)
+
+[Stephanie Lange on YouTube for some useful makeup tips.](https://www.youtube.com/c/stephanielange) 
+
+[Cosmopolitan](https://www.cosmopolitan.com/style-beauty/beauty/)
+
+[Beauty Bay](https://www.beautybay.com/)
+
+[Revolution Beauty London](https://www.revolutionbeauty.com/uk/en/home?gclid=Cj0KCQjwhLKUBhDiARIsAMaTLnGwszVDjxEcYBid95cIltu8vNy_LLMXN7_l9_eZ7ZGIwRa1TrmrOAQaAq9GEALw_wcB)
+
+[Nyx Cosmetics](https://www.nyxcosmetics.co.uk/)
+
+[Lottie London](https://lottie.london/?gclid=Cj0KCQjw4PKTBhD8ARIsAHChzRIlq7G2mHVUX3fLJ_JurfA27vdCVFU99pKyWDUHmcrGtdQK6RY0LhsaAuVgEALw_wcB)
+
+[L'Oréal Paris](https://www.loreal-paris.co.uk/makeup)
+
+
+
 
