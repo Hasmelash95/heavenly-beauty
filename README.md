@@ -126,7 +126,7 @@ A hero image of a hand holding a compact mirror with powder fades in when the sc
 
 A box with a translucent background (like the header) with another call to action, given the user reasons why they should consider subscribing. An encouragement to click the link (within the box) that will take them to the Subscription page. Cloud icons taken fromt Font Awesome are used in lieu of bullet points.
 
-![Why Subscribe](https://user-images.githubusercontent.com/103432143/170695970-7da92ee6-1531-4b60-9ae8-946ecd2ea433.png)
+![Why Subscribe](https://user-images.githubusercontent.com/103432143/172259712-45970bce-bd3a-4144-b9ef-53e0430594c2.png)
 
 The links on both of these sections have aria labels for the visually impaired.
 
@@ -161,16 +161,16 @@ Once a Week, Twice a Week, Several Days a Week, Every Day
 
 Options for What's your preferred style?:
 Natural, Dramatic, Glamorous, Sweet, Quirky
-
-![Additional Info](https://user-images.githubusercontent.com/103432143/171049304-be627f84-3138-4e02-99b1-cb12d6d4954f.png)
+  
+![Additional](https://user-images.githubusercontent.com/103432143/172260085-58290b26-58ac-4688-a183-5d06ff61ecea.png)
 
 Multi-select checkboxes allow the user to select as many options (or no options) as they'd like. 
 
-![Checkboxes](https://user-images.githubusercontent.com/103432143/171049329-281ebe91-803d-431a-89ea-f4c82481a97c.png)
+![Checkbox](https://user-images.githubusercontent.com/103432143/172260104-df727eea-3b0e-4897-b0d3-881f5f3671dd.png)
 
 When the mouse hovers over the submit button, the colors reverse. Cloud icons from font awesome are added to the text for style.
 
-![Submit](https://user-images.githubusercontent.com/103432143/171049370-ff6d63dd-1f98-497e-a351-982ae6f38572.png)
+![Submit Hover](https://user-images.githubusercontent.com/103432143/172260122-5c255bb4-b256-4dbe-9a81-0226387bdb40.png)
 
 Attempting to submit without filling in the required fields, gets an error message.
 
@@ -232,9 +232,9 @@ Website is compatible with iPhones and Samsung smart phones.
 Web Developer Tools were used on Google Chrome to ensure the website maintained structural integrity in different screen sizes. Viewing the website on smart phones with smaller widths confirmed the maintenance of layout. Max-width: 2000px was used to ensure that the website would stop expanding with very large screen sizes. 
 
 #### Am I Responsive? Screenshots
-![Screenshot 2022-06-06 at 12 23 24](https://user-images.githubusercontent.com/103432143/172152335-f1707cfd-bd35-4721-9ca3-6cfb4a029c47.png)
+![Screenshot 2022-06-06 at 23 36 54](https://user-images.githubusercontent.com/103432143/172260639-cab539a6-989e-4f59-a524-44e5be70ec70.png)
 ![Screenshot 2022-06-06 at 12 24 32](https://user-images.githubusercontent.com/103432143/172152344-4b5d5a0f-4fa2-4d7f-8b12-3562e4d89b02.png)
-![Screenshot 2022-06-06 at 12 26 47](https://user-images.githubusercontent.com/103432143/172152356-dd394e24-8d00-4c06-a42c-47cd04b94826.png)
+![Screenshot 2022-06-06 at 23 39 14](https://user-images.githubusercontent.com/103432143/172260823-f36efb6b-9544-494c-aa1c-95f02e1bcbe4.png)
 
 ### Testing User Stories
 
