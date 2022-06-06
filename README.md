@@ -304,6 +304,9 @@ Photo by Oleg Magni: Purple Lipstick against White Background
 
 [L'Oréal Paris](https://www.loreal-paris.co.uk/makeup)
 
+[This article](https://www.gcimagazine.com/brands-products/color-cosmetics/news/21866514/lowincome-shoppers-lead-beauty-spend-nielseniq)
+
+
 
 
 

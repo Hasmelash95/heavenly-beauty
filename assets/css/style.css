@@ -31,7 +31,7 @@ header {
 #heavenly {
 	text-align: center;
 	padding-top: 70px;
-}	
+}
 
 h1 {
 	color: #140a27;
@@ -112,7 +112,10 @@ a #no-barrier {
 }
 
 @keyframes fadeinwards {
-	from { opacity: 0.5; }
+	from {
+		opacity: 0.5;
+	}
+
 	to {
 		opacity: 1;
 	}
@@ -157,7 +160,7 @@ a #no-barrier {
 aside {
 	max-width: 600px;
 	margin: 60px auto;
-    padding: 30px;
+	padding: 30px;
 	letter-spacing: 0.05rem;
 	background-color: rgba(186, 177, 200, 0.7);
 }
@@ -216,7 +219,7 @@ form {
 	padding-top: 30px;
 	margin-top: 20px;
 	margin-bottom: 30px;
-    color: #140a27;
+	color: #140a27;
 }
 
 /* To stack the labels instead of having them in-line - thank you Brian, aligns the labels*/
@@ -336,7 +339,7 @@ footer {
 
 #social-media i {
 	padding: 30px 50px;
-    font-size: 2rem;
+	font-size: 2rem;
 }
 
 #copyright {
@@ -371,7 +374,7 @@ footer {
 
 	#brands {
 		height: 25rem;
-	} 
+	}
 
 	#brands h2 {
 		font-size: 1.5rem;
@@ -458,7 +461,7 @@ footer {
 
 	#no-barrier {
 		width: 250px;
-		height: 200px;	
+		height: 200px;
 	}
 
 	a #no-barrier {
@@ -539,7 +542,7 @@ footer {
 	}
 
 	#brands {
-		height: 50rem; 
+		height: 50rem;
 	}
 
 	legend {
