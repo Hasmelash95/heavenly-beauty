@@ -6,6 +6,7 @@
 }
 
 body {
+	/* Code credit for max-width suggestion to Brian Macharia - so the site looks good on large screens*/
 	max-width: 2000px;
 	margin-left: auto;
 	margin-right: auto;
