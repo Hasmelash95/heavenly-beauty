@@ -125,10 +125,10 @@ a #no-barrier {
 #subscribe {
 	text-align: center;
 	color: #140a27;
-	padding-top: 5px;
 	background-color: rgba(186, 177, 200, 0.7);
-	margin: 60px auto 0;
-	width: 50%;
+	max-width: 600px;
+	margin: 60px auto;
+	padding: 30px;
 }
 
 #subscribe ul {
