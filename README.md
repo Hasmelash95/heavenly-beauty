@@ -10,6 +10,10 @@ Business goals are to become a trusted source for clients looking for affordable
 
 ![Screenshot 2022-06-06 at 12 28 33](https://user-images.githubusercontent.com/103432143/172152295-22885c8e-9020-4b77-8af6-4c8fe8474c5b.png)
 
+## Table of Contents
+
+[User Experience](https://github.com/Hasmelash95/heavenly-beauty#user-experience-(ux))
+
 ## User Experience (UX)
 
 ### Strategy
