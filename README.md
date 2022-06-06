@@ -12,9 +12,19 @@ Business goals are to become a trusted source for clients looking for affordable
 
 ## Table of Contents
 
-[User Experience](https://github.com/Hasmelash95/heavenly-beauty#user-experience-(ux))
+[User Experience (UX)](#user-experience)
 
-## User Experience (UX)
+[Features](#features)
+
+[Testing](#testing)
+
+[Technologies Used](#technologies-used)
+
+[Deployment](#deployment)
+
+[Acknowledgements](#acknowledgements)
+
+## User Experience (UX) <a name="user-experience">
 
 ### Strategy
 
@@ -89,7 +99,8 @@ Animation effects on the hero image draws the attention of the user as soon as t
 Font awesome icons were added using:
 
 ```<script src="https://kit.fontawesome.com/86de956f5a.js" crossorigin="anonymous"></script>```
-## Features
+  
+## Features <a name="features">
 
 ### Header and Navigation
 
@@ -173,7 +184,7 @@ Copyright is just below the social media links.
 
 ![Footer](https://user-images.githubusercontent.com/103432143/170702630-8acb37e1-e4fc-489e-94b6-954f83a8a3a8.png)
 
-## Testing 
+## Testing <a name="testing">
 
 ### Validation
 
@@ -240,7 +251,7 @@ PASS - They will get periodic special offers and vouchers through email and the 
 
 PASS - The website has a navigation bar to take the user to different pages in the site. The underline under the menu buttons ensure they know where they are in the site. This will be useful for whenever the site grows. Aria labels are used for the links, for users who are visually impaired. 
 
-## Technologies Used
+## Technologies Used <a name="technologies-used">
 
 HTML5
 
@@ -254,7 +265,7 @@ Github
 
 Balsamiq Wireframes
 
-## Deployment 
+## Deployment <a name="deployment">
 
 1. Using the Code Institute Github Full Template, create a repository on your github account. Name it, set to public and open repositry on gitpod. 
 2. Set up Github Pages by clicking on the Settings tab, clicking on 'Pages' under 'code and automation'. Change the branch under 'Source' from 'None' to 'Main'. After a few minutes, this should provide the link to the website hosted on Github. 
@@ -268,7 +279,7 @@ To clone the repository:
 3. Open terminal and ensure you are in the correct location. 
 4. Type in 'git clone' and paste the URL you'd copied in step 2 and press enter. 
 
-## Acknowledgements 
+## Acknowledgements <a name="acknowledgements">
 
 My mentor Brian Macharia - for giving lots of constructive feedback and offering code help to improve the website's styling. I have learned a lot from our sessions and I'm truly grateful. 
 
@@ -293,6 +304,8 @@ Photo by Oleg Magni: Purple Lipstick against White Background
 [W3Schools for Code Help](https://www.w3schools.com/)
 
 [For Beautifying code](https://www.freeformatter.com/)
+
+[Am I Responsive?](https://ui.dev/amiresponsive)
 
 [Stephanie Lange on YouTube for some useful makeup tips.](https://www.youtube.com/c/stephanielange) 
 
