@@ -176,13 +176,16 @@ Attempting to submit without filling in the required fields, gets an error messa
 
 ![Required](https://user-images.githubusercontent.com/103432143/171049505-ded803b7-2f69-4928-bd61-a7d87e6195dd.png)
 
-
 ### Footer
 
 Social media icons (fron Font Awesome) are centered and when clicked, take the users to the Heavenly Beauty social media websites (Facebook, Instagram, Discord) in a new tab with aria labels for those who are visually impared. 
 Copyright is just below the social media links.
 
 ![Footer](https://user-images.githubusercontent.com/103432143/170702630-8acb37e1-e4fc-489e-94b6-954f83a8a3a8.png)
+  
+### Future Features
+  
+As the website customer base grows, more pages can be added with more in depth beauty advice. Perhaps expand into hair and nail care too. More subscribers might also be an opportunity to provide different deals. Maybe more perks if they upgrade to a 7.99 (GBP) membership. The website and algorithm will need better upkeep with the increasing client base.
 
 ## Testing <a name="testing">
 
@@ -203,10 +206,14 @@ CSS code was run through [Jigsaw](https://jigsaw.w3.org/css-validator/), passing
 ### Performance 
 
 Lighthouse tests were carried out to test website performance, accessibility, good practices and search engine optimization. The tests were carried out on each page - Home Page, Beauty Hacks and Subscribe Now. In order:
+  
+![Page 1](https://user-images.githubusercontent.com/103432143/172252488-5cf09b46-68f6-45cd-a34f-47324368f5a0.png)
 
-![Page One](https://user-images.githubusercontent.com/103432143/171049652-f047ece6-a4c9-40b6-a672-614c50bf2536.png)
-![Page Two](https://user-images.githubusercontent.com/103432143/171049662-5787e6f0-5495-4803-953f-d2a1308a2fa1.png)
-![Page Three](https://user-images.githubusercontent.com/103432143/171049667-afbbcdd3-5d03-4f47-ac03-005dd6b5f59b.png)
+![Page 2](https://user-images.githubusercontent.com/103432143/172252501-9b4fbd77-7a59-41d2-a374-e68f723cc885.png)
+
+![Page 3](https://user-images.githubusercontent.com/103432143/172252526-8e5b16f8-8240-4026-b7c9-be2011dfc3cd.png)
+  
+Image dimensions were reised to get those performance values. 
 
 ### Functionality
 ![Tests 1-8](https://user-images.githubusercontent.com/103432143/172149953-8cddfa50-7fb0-410e-aff1-692b5b55aae1.png)
@@ -266,12 +273,12 @@ Github
 Balsamiq Wireframes
 
 ## Deployment <a name="deployment">
-
-1. Using the Code Institute Github Full Template, create a repository on your github account. Name it, set to public and open repositry on gitpod. 
-2. Set up Github Pages by clicking on the Settings tab, clicking on 'Pages' under 'code and automation'. Change the branch under 'Source' from 'None' to 'Main'. After a few minutes, this should provide the link to the website hosted on Github. 
-3. Ensure the directory is in the correct location to commit the changes to the right place. 
-4. Use Git to commit changes from Gitpod by typing 'git add .' for every feature added and changes made and 'git commit -m "message here" ' on the Gitpod terminal with a clear but concise message explaining the changes made. 
-5. Type 'git push' and refresh the website (updates may take a few minutes) and the changes will appear on the deployed site. 
+ 
+1. Set up Github Pages by clicking on the Settings tab, clicking on 'Pages' under 'code and automation'. Change the branch under 'Source' from 'None' to 'Main'. Click on 'Save'.
+2. You can navigate to the page now using ```http://<your-username>.github.io/<repository-name>```
+2. Ensure the directory is in the correct location to commit the changes to the right place. 
+3. Use Git to commit changes from Gitpod by typing 'git add .' for every feature added and changes made and 'git commit -m "message here" ' on the Gitpod terminal with a clear but concise message explaining the changes made. 
+4. Type 'git push' and refresh the website (updates may take a few minutes) and the changes will appear on the deployed site. Github Pages will pick up the latest commit pushed to the main branch.
 
 To clone the repository: 
 1. Log on to your Github account and head to the main page of the repository you wish to clone. 
