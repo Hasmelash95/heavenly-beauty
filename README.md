@@ -6,7 +6,7 @@ A website for those looking for cost effective beauty tips and tricks, as well a
 
 Business goals are to become a trusted source for clients looking for affordable beauty regimens and encourage subscription with periodic special offers and discounts (due to partnerships with beauty brands) and algorithm-assisted routines sent monthly. 
 
-![Screenshot 2022-05-26 at 22 47 03](https://user-images.githubusercontent.com/103432143/170585624-75d7c1f6-3aef-40a6-b909-cde4d9b39ee7.png)
+![Screenshot 2022-06-06 at 12 28 33](https://user-images.githubusercontent.com/103432143/172152295-22885c8e-9020-4b77-8af6-4c8fe8474c5b.png)
 
 ## User Experience (UX)
 
@@ -208,11 +208,29 @@ Website is compatible with iPhones and Samsung smart phones.
 Web Developer Tools were used on Google Chrome to ensure the website maintained structural integrity in different screen sizes. Viewing the website on smart phones with smaller widths confirmed the maintenance of layout. Max-width: 2000px was used to ensure that the website would stop expanding with very large screen sizes. 
 
 #### Am I Responsive? Screenshots
-
-
+![Screenshot 2022-06-06 at 12 23 24](https://user-images.githubusercontent.com/103432143/172152335-f1707cfd-bd35-4721-9ca3-6cfb4a029c47.png)
+![Screenshot 2022-06-06 at 12 24 32](https://user-images.githubusercontent.com/103432143/172152344-4b5d5a0f-4fa2-4d7f-8b12-3562e4d89b02.png)
+![Screenshot 2022-06-06 at 12 26 47](https://user-images.githubusercontent.com/103432143/172152356-dd394e24-8d00-4c06-a42c-47cd04b94826.png)
 
 ### Testing User Stories
 
+1. I've been perusing the web in search of makeup tutorials but very often it appears expensive makeup is needed to achieve any of the looks. I wish to visit a site that can offer cost saving tips and tricks.
 
+PASS - The makeup offers cost saving advice on the second page and the subscription page asks the user to check off the makeup items they do already have so as not to give them a regimen beyond their means.
 
+2. I've been searching the web in the hopes of finding a source that can redirect me to the cheaper beauty brands available.
+
+PASS - The Recommended Brands section on the Beauty Hacks page has external links to websites for the economical brands.
+
+3. I want to find a beauty regimen that is tailor suited to me, my skin type, my means and my tastes.
+
+PASS - The information given to the database and the algorithm will ensure the regimen is as well suited to the user as possible. Asking questions about skin type, undertones and preferred style. 
+
+4. I appreciate that this website gives specialised beauty regimen but would like a bit more incentive to subscribe to this beauty site as opposed to others.
+
+PASS - They will get periodic special offers and vouchers through email and the chance to win a free makeover. 
+
+5. I would like to find a site with easy navigation and accessibility.
+
+PASS - The website has a navigation bar to take the user to different pages in the site. The underline under the menu buttons ensure they know where they are in the site. This will be useful for whenever the site grows. Aria labels are used for the links, for users who are visually impaired. 
 
