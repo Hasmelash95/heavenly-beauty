@@ -142,7 +142,7 @@ The background with the purple lipstick provides added flair and remains in keep
 
 ### Subscribe Now
 
-The Subscribe Now page can be accessed either through the box in the Home Page or the navigation button. It takes the user to a page with a form to fill out. The text inputs are marked as required, so users cannot leave them blank. The personal details fieldset asks typical personal questions: Name, Age, Gender, Email. The latter through which Heavenly Beauty will contact the client. 
+The Subscribe Now page can be accessed either through the box in the Home Page or the navigation button. It takes the user to a page with a form to fill out. The text inputs are marked as required, so users cannot leave them blank. The personal details fieldset asks typical personal questions: Name, Age, Gender, Email. The latter through which Heavenly Beauty will contact the client. The age is set to minimum value of 18, since the target audience are adults. With a maximum age of 120.
 
 ![Personal Details](https://user-images.githubusercontent.com/103432143/171049222-e564046d-9e17-4897-b74d-9bfeb853175b.png)
 
