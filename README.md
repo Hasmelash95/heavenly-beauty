@@ -42,7 +42,7 @@ Business goals are to become a trusted source for clients looking for affordable
 
 #### Why Heavenly Beauty?
 
-Heavenly Beauty will send emails to subscribers with special offers and vouchers. For only 3.99 (GBP) a month, customers will receive monthly beauty regimens tailor suited to them, created with the help of an algorithm that uses information from the form. There will also be a chance to win a free makeover from an expert beauticians. 
+Heavenly Beauty will send emails to subscribers with special offers and vouchers. For only 3.99 (GBP) a month, customers will receive monthly beauty regimens tailor suited to them, created with the help of an algorithm that uses information from the form. There will also be a chance to win a free makeover from an expert beautician. 
 
 Easy navigation between the three pages in the website. Homepage provides links to the different sections of the site in addition to the navigation bar. The website is also friendly to those with impaired vision. 
 
@@ -124,7 +124,7 @@ A hero image of a hand holding a compact mirror with powder fades in when the sc
 
 ![Allow No Barrier](https://user-images.githubusercontent.com/103432143/170694088-ba9ce095-2a35-4f0f-8b1d-e77a0ea0eb44.png)
 
-A box with a translucent background (like the header) with another call to action, given the user reasons why they should consider subscribing. An encouragement to click the link (within the box) that will take them to the Subscription page. Cloud icons taken fromt Font Awesome are used in lieu of bullet points.
+A box with a translucent background (like the header) with another call to action, giving the user reasons why they should consider subscribing. An encouragement to click the link (within the box) that will take them to the Subscription page. Cloud icons taken fromt Font Awesome are used in lieu of bullet points.
 
 ![Why Subscribe](https://user-images.githubusercontent.com/103432143/172259712-45970bce-bd3a-4144-b9ef-53e0430594c2.png)
 
@@ -132,7 +132,7 @@ The links on both of these sections have aria labels for the visually impaired.
 
 ### Beauty Hacks
 
-The second page, which can be accessed either navigation button or the hero image, provides articles with cost saving beauty tips and tricks in addition to links to external articles which emphasize the importance of low income shoppers to the market and external links to Recommended Brands with affordable beauty products. The links open in a different tab and have aria labels for the visually impaired
+The second page, which can be accessed by either the navigation button or the hero image, provides articles with cost saving beauty tips and tricks in addition to links to external articles which emphasize the importance of low income shoppers to the market and external links to Recommended Brands with affordable beauty products. The links open in a different tab and have aria labels for the visually impaired
 
 ![Articles](https://user-images.githubusercontent.com/103432143/170695744-ec6e644a-e17e-470b-bbb8-7230d6b8cfb9.png)
 
@@ -185,7 +185,7 @@ Copyright is just below the social media links.
   
 ### Future Features
   
-As the website customer base grows, more pages can be added with more in depth beauty advice. Perhaps expand into hair and nail care too. More subscribers might also be an opportunity to provide different deals. Maybe more perks if they upgrade to a 7.99 (GBP) membership. The website and algorithm will need better upkeep with the increasing client base.
+As the website customer base grows, more pages can be added with more in depth beauty advice. Perhaps the website can expand into hair and nail care too. More subscribers might also be an opportunity to provide different deals. Maybe more perks if they upgrade to a 7.99 (GBP) membership. The website and algorithm will need better upkeep with the increasing client base. Merchandise could be another path to keeping up with higher costs.
 
 ## Testing <a name="testing">
 
@@ -223,7 +223,7 @@ Image dimensions were reised to get those performance values.
 ### Browser Compatibility 
 
 Functional tests carried out on Chrome, Safari, Firefox and Microsoft Edge.
-All tests PASSED. Only difference between browsers was, when using Firefox and Safari the user is able to input letters into the age field. When they attempt to submit, however, a message pops up asking them to input a number.
+All tests PASSED. The only difference between browsers was, when using Firefox and Safari the user is able to input letters into the age field. When they attempt to submit, however, a message pops up asking them to input a number.
 
 Website is compatible with iPhones and Samsung smart phones. 
 
@@ -240,7 +240,7 @@ Web Developer Tools were used on Google Chrome to ensure the website maintained 
 
 1. I've been perusing the web in search of makeup tutorials but very often it appears expensive makeup is needed to achieve any of the looks. I wish to visit a site that can offer cost saving tips and tricks.
 
-PASS - The makeup offers cost saving advice on the second page and the subscription page asks the user to check off the makeup items they do already have so as not to give them a regimen beyond their means.
+PASS - The website offers cost saving advice on the second page and the subscription page asks the user to check off the makeup items they do already have so as not to give them a regimen beyond their means.
 
 2. I've been searching the web in the hopes of finding a source that can redirect me to the cheaper beauty brands available.
 
@@ -308,7 +308,9 @@ Photo by Oleg Magni: Purple Lipstick against White Background
 [Photo by Robin Schreiner](https://www.pexels.com/photo/arches-hallway-inside-building-2261166/)
 
 [Font Awesome for icons](https://fontawesome.com/icons)
-
+  
+[Quote by Dante Alighieri](https://www.brainyquote.com/quotes/dante_alighieri_379815?src=t_beauty)  
+  
 [HubSpot for Fade In Animation Effect](https://blog.hubspot.com/)
 
 [W3Schools for Code Help](https://www.w3schools.com/)
