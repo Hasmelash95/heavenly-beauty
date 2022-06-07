@@ -274,11 +274,12 @@ Balsamiq Wireframes
 
 ## Deployment <a name="deployment">
  
+1. Log on to Github.  
 1. Set up Github Pages by clicking on the Settings tab, clicking on 'Pages' under 'code and automation'. Change the branch under 'Source' from 'None' to 'Main'. Click on 'Save'.
-2. You can navigate to the page now using ```http://<your-username>.github.io/<repository-name>```
-2. Ensure the directory is in the correct location to commit the changes to the right place. 
-3. Use Git to commit changes from Gitpod by typing 'git add .' for every feature added and changes made and 'git commit -m "message here" ' on the Gitpod terminal with a clear but concise message explaining the changes made. 
-4. Type 'git push' and refresh the website (updates may take a few minutes) and the changes will appear on the deployed site. Github Pages will pick up the latest commit pushed to the main branch.
+2. Navigate to the page now using ```http://hasmelash95.github.io/heavenly-beauty```
+3. Ensure the directory is in the correct location to commit the changes to the right place. 
+4. Use Git to commit changes from Gitpod by typing 'git add .' for every feature added and changes made and 'git commit -m "message here" ' on the Gitpod terminal with a clear but concise message explaining the changes made. 
+5. Type 'git push' and refresh the website (updates may take a few minutes) and the changes will appear on the deployed site. Github Pages will pick up the latest commit pushed to the main branch.
 
 To clone the repository: 
 1. Log on to your Github account and head to the main page of the repository you wish to clone. 
